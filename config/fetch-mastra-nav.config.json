@@ -1,0 +1,23 @@
+{
+  "name": "Mastra Documentation",
+  "baseUrl": "https://mastra.ai",
+  "docsUrls": {
+    "docs": "https://mastra.ai/en/docs",
+    "examples": "https://mastra.ai/en/examples", 
+    "guides": "https://mastra.ai/en/guides",
+    "reference": "https://mastra.ai/en/reference"
+  },
+  "navigation": {
+    "selector": "aside",
+    "id": "«R17nbkmnb»",
+    "fullSelector": "aside#«R17nbkmnb»"
+  },
+  "output": {
+    "htmlFolder": "mastra-nav"
+  },
+  "crawler": {
+    "timeout": 30000,
+    "waitForSelector": "aside#«R17nbkmnb»",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+  }
+} 

@@ -1,0 +1,67 @@
+{
+  "name": "mastra-docs-mcp",
+  "version": "0.0.0",
+  "description": "MCP server for Mastra documentation",
+  "license": "ISC",
+  "author": "Yarnovo <yarnb@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yarnovo/mastra-docs-mcp"
+  },
+  "homepage": "https://github.com/yarnovo/mastra-docs-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/yarnovo/mastra-docs-mcp/issues"
+  },
+  "type": "module",
+  "bin": "dist/bin/index.js",
+  "files": [
+    "dist/**/*",
+    "sources/**/*",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mastra",
+    "documentation",
+    "ai"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build-docs": "npm run fetch-mastra-nav && npm run parse-mastra-nav && npm run fetch-mastra-descriptions && npm run merge-mastra-data",
+    "build-vector-db": "node dist/scripts/build-vector-db.js",
+    "fetch-mastra-nav": "node dist/scripts/fetch-mastra-nav.js",
+    "parse-mastra-nav": "node dist/scripts/parse-mastra-nav.js",
+    "fetch-mastra-descriptions": "node dist/scripts/fetch-mastra-descriptions.js",
+    "merge-mastra-data": "node dist/scripts/merge-mastra-data.js",
+    "debug-mastra-selectors": "node dist/scripts/debug-mastra-selectors.js",
+    "install-browsers": "npx playwright install chromium",
+    "postversion": "git push origin --follow-tags",
+    "prepublishOnly": "npm run build",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.0.0",
+    "husky": "^9.1.7",
+    "jsdom": "^26.1.0",
+    "playwright": "^1.53.0",
+    "puppeteer": "^22.0.0",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.20.0",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "apache-arrow": "^16.1.0",
+    "zod": "^3.25.63"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

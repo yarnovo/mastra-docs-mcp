@@ -1,0 +1,1679 @@
+{
+  "name": "Mastra Documentation",
+  "baseUrl": "https://mastra.ai",
+  "total": 333,
+  "generated": "2025-06-15T10:08:27.987Z",
+  "sources": [
+    "docs",
+    "examples",
+    "guides",
+    "reference"
+  ],
+  "links": [
+    {
+      "title": "Introduction",
+      "href": "/docs",
+      "fullUrl": "https://mastra.ai/docs"
+    },
+    {
+      "title": "Installation",
+      "href": "/docs/getting-started/installation",
+      "fullUrl": "https://mastra.ai/docs/getting-started/installation"
+    },
+    {
+      "title": "Project Structure",
+      "href": "/docs/getting-started/project-structure",
+      "fullUrl": "https://mastra.ai/docs/getting-started/project-structure"
+    },
+    {
+      "title": "MCP Docs Server",
+      "href": "/docs/getting-started/mcp-docs-server",
+      "fullUrl": "https://mastra.ai/docs/getting-started/mcp-docs-server"
+    },
+    {
+      "title": "Model Providers",
+      "href": "/docs/getting-started/model-providers",
+      "fullUrl": "https://mastra.ai/docs/getting-started/model-providers"
+    },
+    {
+      "title": "Model Capabilities",
+      "href": "/docs/getting-started/model-capability",
+      "fullUrl": "https://mastra.ai/docs/getting-started/model-capability"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/agents/overview",
+      "fullUrl": "https://mastra.ai/docs/agents/overview"
+    },
+    {
+      "title": "Agent Memory",
+      "href": "/docs/agents/agent-memory",
+      "fullUrl": "https://mastra.ai/docs/agents/agent-memory"
+    },
+    {
+      "title": "Tools and MCP",
+      "href": "/docs/agents/using-tools-and-mcp",
+      "fullUrl": "https://mastra.ai/docs/agents/using-tools-and-mcp"
+    },
+    {
+      "title": "Adding Voice",
+      "href": "/docs/agents/adding-voice",
+      "fullUrl": "https://mastra.ai/docs/agents/adding-voice"
+    },
+    {
+      "title": "Runtime Context",
+      "href": "/docs/agents/runtime-variables",
+      "fullUrl": "https://mastra.ai/docs/agents/runtime-variables"
+    },
+    {
+      "title": "Dynamic Agents",
+      "href": "/docs/agents/dynamic-agents",
+      "fullUrl": "https://mastra.ai/docs/agents/dynamic-agents"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/tools-mcp/overview",
+      "fullUrl": "https://mastra.ai/docs/tools-mcp/overview"
+    },
+    {
+      "title": "MCP Overview",
+      "href": "/docs/tools-mcp/mcp-overview",
+      "fullUrl": "https://mastra.ai/docs/tools-mcp/mcp-overview"
+    },
+    {
+      "title": "Dynamic Tool Context",
+      "href": "/docs/tools-mcp/dynamic-context",
+      "fullUrl": "https://mastra.ai/docs/tools-mcp/dynamic-context"
+    },
+    {
+      "title": "Advanced Usage",
+      "href": "/docs/tools-mcp/advanced-usage",
+      "fullUrl": "https://mastra.ai/docs/tools-mcp/advanced-usage"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/memory/overview",
+      "fullUrl": "https://mastra.ai/docs/memory/overview"
+    },
+    {
+      "title": "Semantic Recall",
+      "href": "/docs/memory/semantic-recall",
+      "fullUrl": "https://mastra.ai/docs/memory/semantic-recall"
+    },
+    {
+      "title": "Working Memory",
+      "href": "/docs/memory/working-memory",
+      "fullUrl": "https://mastra.ai/docs/memory/working-memory"
+    },
+    {
+      "title": "Memory Processors",
+      "href": "/docs/memory/memory-processors",
+      "fullUrl": "https://mastra.ai/docs/memory/memory-processors"
+    },
+    {
+      "title": "Overviewnew",
+      "href": "/docs/workflows/overview",
+      "fullUrl": "https://mastra.ai/docs/workflows/overview"
+    },
+    {
+      "title": "Control Flow",
+      "href": "/docs/workflows/control-flow",
+      "fullUrl": "https://mastra.ai/docs/workflows/control-flow"
+    },
+    {
+      "title": "Suspend & Resume",
+      "href": "/docs/workflows/suspend-and-resume",
+      "fullUrl": "https://mastra.ai/docs/workflows/suspend-and-resume"
+    },
+    {
+      "title": "Input Data Mapping",
+      "href": "/docs/workflows/input-data-mapping",
+      "fullUrl": "https://mastra.ai/docs/workflows/input-data-mapping"
+    },
+    {
+      "title": "Agents and Tools",
+      "href": "/docs/workflows/using-with-agents-and-tools",
+      "fullUrl": "https://mastra.ai/docs/workflows/using-with-agents-and-tools"
+    },
+    {
+      "title": "Inngest Workflowexp.",
+      "href": "/docs/workflows/inngest-workflow",
+      "fullUrl": "https://mastra.ai/docs/workflows/inngest-workflow"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/workflows-legacy/overview",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/overview"
+    },
+    {
+      "title": "Steps",
+      "href": "/docs/workflows-legacy/steps",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/steps"
+    },
+    {
+      "title": "Control Flow",
+      "href": "/docs/workflows-legacy/control-flow",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/control-flow"
+    },
+    {
+      "title": "Variables",
+      "href": "/docs/workflows-legacy/variables",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/variables"
+    },
+    {
+      "title": "Suspend & Resume",
+      "href": "/docs/workflows-legacy/suspend-and-resume",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/suspend-and-resume"
+    },
+    {
+      "title": "Dynamic Workflows",
+      "href": "/docs/workflows-legacy/dynamic-workflows",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/dynamic-workflows"
+    },
+    {
+      "title": "Error Handling",
+      "href": "/docs/workflows-legacy/error-handling",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/error-handling"
+    },
+    {
+      "title": "Nested Workflows",
+      "href": "/docs/workflows-legacy/nested-workflows",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/nested-workflows"
+    },
+    {
+      "title": "Runtime/Dynamic Variables",
+      "href": "/docs/workflows-legacy/runtime-variables",
+      "fullUrl": "https://mastra.ai/docs/workflows-legacy/runtime-variables"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/rag/overview",
+      "fullUrl": "https://mastra.ai/docs/rag/overview"
+    },
+    {
+      "title": "Chunking and Embedding",
+      "href": "/docs/rag/chunking-and-embedding",
+      "fullUrl": "https://mastra.ai/docs/rag/chunking-and-embedding"
+    },
+    {
+      "title": "Vector Databases",
+      "href": "/docs/rag/vector-databases",
+      "fullUrl": "https://mastra.ai/docs/rag/vector-databases"
+    },
+    {
+      "title": "Retrieval",
+      "href": "/docs/rag/retrieval",
+      "fullUrl": "https://mastra.ai/docs/rag/retrieval"
+    },
+    {
+      "title": "Creating a New Project",
+      "href": "/docs/local-dev/creating-a-new-project",
+      "fullUrl": "https://mastra.ai/docs/local-dev/creating-a-new-project"
+    },
+    {
+      "title": "Add to an Existing Project",
+      "href": "/docs/local-dev/add-to-existing-project",
+      "fullUrl": "https://mastra.ai/docs/local-dev/add-to-existing-project"
+    },
+    {
+      "title": "Development Environment",
+      "href": "/docs/local-dev/mastra-dev",
+      "fullUrl": "https://mastra.ai/docs/local-dev/mastra-dev"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/deployment/overview",
+      "fullUrl": "https://mastra.ai/docs/deployment/overview"
+    },
+    {
+      "title": "With a Server",
+      "href": "/docs/deployment/server",
+      "fullUrl": "https://mastra.ai/docs/deployment/server"
+    },
+    {
+      "title": "Middleware",
+      "href": "/docs/deployment/middleware",
+      "fullUrl": "https://mastra.ai/docs/deployment/middleware"
+    },
+    {
+      "title": "Custom API Routes",
+      "href": "/docs/deployment/custom-api-routes",
+      "fullUrl": "https://mastra.ai/docs/deployment/custom-api-routes"
+    },
+    {
+      "title": "Serverless Platforms",
+      "href": "/docs/deployment/deployment",
+      "fullUrl": "https://mastra.ai/docs/deployment/deployment"
+    },
+    {
+      "title": "Mastra Client SDK",
+      "href": "/docs/deployment/client",
+      "fullUrl": "https://mastra.ai/docs/deployment/client"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/mastra-cloud/overview",
+      "fullUrl": "https://mastra.ai/docs/mastra-cloud/overview"
+    },
+    {
+      "title": "Setting Up a Project",
+      "href": "/docs/mastra-cloud/setting-up",
+      "fullUrl": "https://mastra.ai/docs/mastra-cloud/setting-up"
+    },
+    {
+      "title": "Deploying",
+      "href": "/docs/mastra-cloud/deploying",
+      "fullUrl": "https://mastra.ai/docs/mastra-cloud/deploying"
+    },
+    {
+      "title": "Observability",
+      "href": "/docs/mastra-cloud/observability",
+      "fullUrl": "https://mastra.ai/docs/mastra-cloud/observability"
+    },
+    {
+      "title": "Logging",
+      "href": "/docs/observability/logging",
+      "fullUrl": "https://mastra.ai/docs/observability/logging"
+    },
+    {
+      "title": "Tracing",
+      "href": "/docs/observability/tracing",
+      "fullUrl": "https://mastra.ai/docs/observability/tracing"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/evals/overview",
+      "fullUrl": "https://mastra.ai/docs/evals/overview"
+    },
+    {
+      "title": "Textual Evals",
+      "href": "/docs/evals/textual-evals",
+      "fullUrl": "https://mastra.ai/docs/evals/textual-evals"
+    },
+    {
+      "title": "Custom Evals",
+      "href": "/docs/evals/custom-eval",
+      "fullUrl": "https://mastra.ai/docs/evals/custom-eval"
+    },
+    {
+      "title": "Running in CI",
+      "href": "/docs/evals/running-in-ci",
+      "fullUrl": "https://mastra.ai/docs/evals/running-in-ci"
+    },
+    {
+      "title": "With Vercel AI SDK",
+      "href": "/docs/frameworks/agentic-uis/ai-sdk",
+      "fullUrl": "https://mastra.ai/docs/frameworks/agentic-uis/ai-sdk"
+    },
+    {
+      "title": "With CopilotKit",
+      "href": "/docs/frameworks/agentic-uis/copilotkit",
+      "fullUrl": "https://mastra.ai/docs/frameworks/agentic-uis/copilotkit"
+    },
+    {
+      "title": "With Assistant UI",
+      "href": "/docs/frameworks/agentic-uis/assistant-ui",
+      "fullUrl": "https://mastra.ai/docs/frameworks/agentic-uis/assistant-ui"
+    },
+    {
+      "title": "With OpenRouter",
+      "href": "/docs/frameworks/agentic-uis/openrouter",
+      "fullUrl": "https://mastra.ai/docs/frameworks/agentic-uis/openrouter"
+    },
+    {
+      "title": "With Express",
+      "href": "/docs/frameworks/servers/express",
+      "fullUrl": "https://mastra.ai/docs/frameworks/servers/express"
+    },
+    {
+      "title": "With Vite/React",
+      "href": "/docs/frameworks/web-frameworks/vite-react",
+      "fullUrl": "https://mastra.ai/docs/frameworks/web-frameworks/vite-react"
+    },
+    {
+      "title": "With Next.js",
+      "href": "/docs/frameworks/web-frameworks/next-js",
+      "fullUrl": "https://mastra.ai/docs/frameworks/web-frameworks/next-js"
+    },
+    {
+      "title": "With Astro",
+      "href": "/docs/frameworks/web-frameworks/astro",
+      "fullUrl": "https://mastra.ai/docs/frameworks/web-frameworks/astro"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/storage/overview",
+      "fullUrl": "https://mastra.ai/docs/storage/overview"
+    },
+    {
+      "title": "Overview",
+      "href": "/docs/voice/overview",
+      "fullUrl": "https://mastra.ai/docs/voice/overview"
+    },
+    {
+      "title": "Text to Speech",
+      "href": "/docs/voice/text-to-speech",
+      "fullUrl": "https://mastra.ai/docs/voice/text-to-speech"
+    },
+    {
+      "title": "Speech to Text",
+      "href": "/docs/voice/speech-to-text",
+      "fullUrl": "https://mastra.ai/docs/voice/speech-to-text"
+    },
+    {
+      "title": "Speech to Speechnew",
+      "href": "/docs/voice/speech-to-speech",
+      "fullUrl": "https://mastra.ai/docs/voice/speech-to-speech"
+    },
+    {
+      "title": "Licensing",
+      "href": "/docs/community/licensing",
+      "fullUrl": "https://mastra.ai/docs/community/licensing"
+    },
+    {
+      "title": "Discord",
+      "href": "/docs/community/discord",
+      "fullUrl": "https://mastra.ai/docs/community/discord"
+    },
+    {
+      "title": "Overview",
+      "href": "/examples",
+      "fullUrl": "https://mastra.ai/examples"
+    },
+    {
+      "title": "Giving a System Prompt",
+      "href": "/examples/agents/system-prompt",
+      "fullUrl": "https://mastra.ai/examples/agents/system-prompt"
+    },
+    {
+      "title": "Agentic Workflows",
+      "href": "/examples/agents/agentic-workflows",
+      "fullUrl": "https://mastra.ai/examples/agents/agentic-workflows"
+    },
+    {
+      "title": "Using a Tool",
+      "href": "/examples/agents/using-a-tool",
+      "fullUrl": "https://mastra.ai/examples/agents/using-a-tool"
+    },
+    {
+      "title": "Hierarchical Multi-Agent System",
+      "href": "/examples/agents/hierarchical-multi-agent",
+      "fullUrl": "https://mastra.ai/examples/agents/hierarchical-multi-agent"
+    },
+    {
+      "title": "Multi-Agent Workflow",
+      "href": "/examples/agents/multi-agent-workflow",
+      "fullUrl": "https://mastra.ai/examples/agents/multi-agent-workflow"
+    },
+    {
+      "title": "Bird Checker",
+      "href": "/examples/agents/bird-checker",
+      "fullUrl": "https://mastra.ai/examples/agents/bird-checker"
+    },
+    {
+      "title": "Give your Agent a voice",
+      "href": "/examples/agents/adding-voice-capabilities",
+      "fullUrl": "https://mastra.ai/examples/agents/adding-voice-capabilities"
+    },
+    {
+      "title": "Deploying an MCPServer",
+      "href": "/examples/agents/deploying-mcp-server",
+      "fullUrl": "https://mastra.ai/examples/agents/deploying-mcp-server"
+    },
+    {
+      "title": "Dynamic Agents",
+      "href": "/examples/agents/dynamic-agents",
+      "fullUrl": "https://mastra.ai/examples/agents/dynamic-agents"
+    },
+    {
+      "title": "Conditional Branching",
+      "href": "/examples/workflows/conditional-branching",
+      "fullUrl": "https://mastra.ai/examples/workflows/conditional-branching"
+    },
+    {
+      "title": "Parallel Steps",
+      "href": "/examples/workflows/parallel-steps",
+      "fullUrl": "https://mastra.ai/examples/workflows/parallel-steps"
+    },
+    {
+      "title": "Calling an Agent",
+      "href": "/examples/workflows/calling-agent",
+      "fullUrl": "https://mastra.ai/examples/workflows/calling-agent"
+    },
+    {
+      "title": "Tool & Agent as a Step",
+      "href": "/examples/workflows/agent-and-tool-interop",
+      "fullUrl": "https://mastra.ai/examples/workflows/agent-and-tool-interop"
+    },
+    {
+      "title": "Human in the Loop",
+      "href": "/examples/workflows/human-in-the-loop",
+      "fullUrl": "https://mastra.ai/examples/workflows/human-in-the-loop"
+    },
+    {
+      "title": "Control Flow",
+      "href": "/examples/workflows/control-flow",
+      "fullUrl": "https://mastra.ai/examples/workflows/control-flow"
+    },
+    {
+      "title": "Array as Input",
+      "href": "/examples/workflows/array-as-input",
+      "fullUrl": "https://mastra.ai/examples/workflows/array-as-input"
+    },
+    {
+      "title": "Inngest Workflow",
+      "href": "/examples/workflows/inngest-workflow",
+      "fullUrl": "https://mastra.ai/examples/workflows/inngest-workflow"
+    },
+    {
+      "title": "Creating a Workflow",
+      "href": "/examples/workflows_legacy/creating-a-workflow",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/creating-a-workflow"
+    },
+    {
+      "title": "Sequential Steps",
+      "href": "/examples/workflows_legacy/sequential-steps",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/sequential-steps"
+    },
+    {
+      "title": "Parallel Steps",
+      "href": "/examples/workflows_legacy/parallel-steps",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/parallel-steps"
+    },
+    {
+      "title": "Branching Paths",
+      "href": "/examples/workflows_legacy/branching-paths",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/branching-paths"
+    },
+    {
+      "title": "Conditional Branching",
+      "href": "/examples/workflows_legacy/conditional-branching",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/conditional-branching"
+    },
+    {
+      "title": "Calling an Agent",
+      "href": "/examples/workflows_legacy/calling-agent",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/calling-agent"
+    },
+    {
+      "title": "Using a Tool as a Step",
+      "href": "/examples/workflows_legacy/using-a-tool-as-a-step",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/using-a-tool-as-a-step"
+    },
+    {
+      "title": "Cyclical Dependencies",
+      "href": "/examples/workflows_legacy/cyclical-dependencies",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/cyclical-dependencies"
+    },
+    {
+      "title": "Workflow Variables",
+      "href": "/examples/workflows_legacy/workflow-variables",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/workflow-variables"
+    },
+    {
+      "title": "Example: Human in the Loop | Workflows (Legacy) | Mastra Docs",
+      "href": "/examples/workflows_legacy/human-in-the-loop",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/human-in-the-loop"
+    },
+    {
+      "title": "Example: Suspend and Resume | Workflows (Legacy) | Mastra Docs",
+      "href": "/examples/workflows_legacy/suspend-and-resume",
+      "fullUrl": "https://mastra.ai/examples/workflows_legacy/suspend-and-resume"
+    },
+    {
+      "title": "Chunk Text",
+      "href": "/examples/rag/chunking/chunk-text",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/chunk-text"
+    },
+    {
+      "title": "Chunk Markdown",
+      "href": "/examples/rag/chunking/chunk-markdown",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/chunk-markdown"
+    },
+    {
+      "title": "Chunk HTML",
+      "href": "/examples/rag/chunking/chunk-html",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/chunk-html"
+    },
+    {
+      "title": "Chunk JSON",
+      "href": "/examples/rag/chunking/chunk-json",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/chunk-json"
+    },
+    {
+      "title": "Adjust Chunk Size",
+      "href": "/examples/rag/chunking/adjust-chunk-size",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/adjust-chunk-size"
+    },
+    {
+      "title": "Adjust Chunk Delimiters",
+      "href": "/examples/rag/chunking/adjust-chunk-delimiters",
+      "fullUrl": "https://mastra.ai/examples/rag/chunking/adjust-chunk-delimiters"
+    },
+    {
+      "title": "Embed Text Chunk",
+      "href": "/examples/rag/embedding/embed-text-chunk",
+      "fullUrl": "https://mastra.ai/examples/rag/embedding/embed-text-chunk"
+    },
+    {
+      "title": "Embed Chunk Array",
+      "href": "/examples/rag/embedding/embed-chunk-array",
+      "fullUrl": "https://mastra.ai/examples/rag/embedding/embed-chunk-array"
+    },
+    {
+      "title": "Embed Text with Cohere",
+      "href": "/examples/rag/embedding/embed-text-with-cohere",
+      "fullUrl": "https://mastra.ai/examples/rag/embedding/embed-text-with-cohere"
+    },
+    {
+      "title": "Metadata Extraction",
+      "href": "/examples/rag/embedding/metadata-extraction",
+      "fullUrl": "https://mastra.ai/examples/rag/embedding/metadata-extraction"
+    },
+    {
+      "title": "Upsert Embeddings",
+      "href": "/examples/rag/upsert/upsert-embeddings",
+      "fullUrl": "https://mastra.ai/examples/rag/upsert/upsert-embeddings"
+    },
+    {
+      "title": "Hybrid Vector Search",
+      "href": "/examples/rag/query/hybrid-vector-search",
+      "fullUrl": "https://mastra.ai/examples/rag/query/hybrid-vector-search"
+    },
+    {
+      "title": "Retrieve Results",
+      "href": "/examples/rag/query/retrieve-results",
+      "fullUrl": "https://mastra.ai/examples/rag/query/retrieve-results"
+    },
+    {
+      "title": "Re-ranking Results",
+      "href": "/examples/rag/rerank/rerank",
+      "fullUrl": "https://mastra.ai/examples/rag/rerank/rerank"
+    },
+    {
+      "title": "Re-ranking Results with Tools",
+      "href": "/examples/rag/rerank/rerank-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/rerank/rerank-rag"
+    },
+    {
+      "title": "Re-ranking results with Cohere",
+      "href": "/examples/rag/rerank/reranking-with-cohere",
+      "fullUrl": "https://mastra.ai/examples/rag/rerank/reranking-with-cohere"
+    },
+    {
+      "title": "Using the Vector Query Tool",
+      "href": "/examples/rag/usage/basic-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/basic-rag"
+    },
+    {
+      "title": "Optimizing Information Density",
+      "href": "/examples/rag/usage/cleanup-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/cleanup-rag"
+    },
+    {
+      "title": "Metadata Filtering",
+      "href": "/examples/rag/usage/filter-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/filter-rag"
+    },
+    {
+      "title": "Chain of Thought Prompting",
+      "href": "/examples/rag/usage/cot-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/cot-rag"
+    },
+    {
+      "title": "Structured Reasoning with Workflows",
+      "href": "/examples/rag/usage/cot-workflow-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/cot-workflow-rag"
+    },
+    {
+      "title": "Graph RAG",
+      "href": "/examples/rag/usage/graph-rag",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/graph-rag"
+    },
+    {
+      "title": "Database-Specific Configurations | RAG | Mastra Examples",
+      "href": "/examples/rag/usage/database-specific-config",
+      "fullUrl": "https://mastra.ai/examples/rag/usage/database-specific-config"
+    },
+    {
+      "title": "Memory with LibSQL",
+      "href": "/examples/memory/memory-with-libsql",
+      "fullUrl": "https://mastra.ai/examples/memory/memory-with-libsql"
+    },
+    {
+      "title": "Memory with PostgreSQL",
+      "href": "/examples/memory/memory-with-pg",
+      "fullUrl": "https://mastra.ai/examples/memory/memory-with-pg"
+    },
+    {
+      "title": "Memory with Upstash",
+      "href": "/examples/memory/memory-with-upstash",
+      "fullUrl": "https://mastra.ai/examples/memory/memory-with-upstash"
+    },
+    {
+      "title": "Memory with Mem0",
+      "href": "/examples/memory/memory-with-mem0",
+      "fullUrl": "https://mastra.ai/examples/memory/memory-with-mem0"
+    },
+    {
+      "title": "Streaming Working Memory",
+      "href": "/examples/memory/streaming-working-memory",
+      "fullUrl": "https://mastra.ai/examples/memory/streaming-working-memory"
+    },
+    {
+      "title": "Streaming Working Memory (Advanced)",
+      "href": "/examples/memory/streaming-working-memory-advanced",
+      "fullUrl": "https://mastra.ai/examples/memory/streaming-working-memory-advanced"
+    },
+    {
+      "title": "Memory Processors",
+      "href": "/examples/memory/memory-processors",
+      "fullUrl": "https://mastra.ai/examples/memory/memory-processors"
+    },
+    {
+      "title": "AI SDK useChat Hook",
+      "href": "/examples/memory/use-chat",
+      "fullUrl": "https://mastra.ai/examples/memory/use-chat"
+    },
+    {
+      "title": "Answer Relevancy",
+      "href": "/examples/evals/answer-relevancy",
+      "fullUrl": "https://mastra.ai/examples/evals/answer-relevancy"
+    },
+    {
+      "title": "Bias",
+      "href": "/examples/evals/bias",
+      "fullUrl": "https://mastra.ai/examples/evals/bias"
+    },
+    {
+      "title": "Completeness",
+      "href": "/examples/evals/completeness",
+      "fullUrl": "https://mastra.ai/examples/evals/completeness"
+    },
+    {
+      "title": "Content Similarity",
+      "href": "/examples/evals/content-similarity",
+      "fullUrl": "https://mastra.ai/examples/evals/content-similarity"
+    },
+    {
+      "title": "Context Position",
+      "href": "/examples/evals/context-position",
+      "fullUrl": "https://mastra.ai/examples/evals/context-position"
+    },
+    {
+      "title": "Context Precision",
+      "href": "/examples/evals/context-precision",
+      "fullUrl": "https://mastra.ai/examples/evals/context-precision"
+    },
+    {
+      "title": "Context Relevancy",
+      "href": "/examples/evals/context-relevancy",
+      "fullUrl": "https://mastra.ai/examples/evals/context-relevancy"
+    },
+    {
+      "title": "Contextual Recall",
+      "href": "/examples/evals/contextual-recall",
+      "fullUrl": "https://mastra.ai/examples/evals/contextual-recall"
+    },
+    {
+      "title": "Custom Eval",
+      "href": "/examples/evals/custom-eval",
+      "fullUrl": "https://mastra.ai/examples/evals/custom-eval"
+    },
+    {
+      "title": "Faithfulness",
+      "href": "/examples/evals/faithfulness",
+      "fullUrl": "https://mastra.ai/examples/evals/faithfulness"
+    },
+    {
+      "title": "Hallucination",
+      "href": "/examples/evals/hallucination",
+      "fullUrl": "https://mastra.ai/examples/evals/hallucination"
+    },
+    {
+      "title": "Keyword Coverage",
+      "href": "/examples/evals/keyword-coverage",
+      "fullUrl": "https://mastra.ai/examples/evals/keyword-coverage"
+    },
+    {
+      "title": "Prompt Alignment",
+      "href": "/examples/evals/prompt-alignment",
+      "fullUrl": "https://mastra.ai/examples/evals/prompt-alignment"
+    },
+    {
+      "title": "Summarization",
+      "href": "/examples/evals/summarization",
+      "fullUrl": "https://mastra.ai/examples/evals/summarization"
+    },
+    {
+      "title": "Textual Difference",
+      "href": "/examples/evals/textual-difference",
+      "fullUrl": "https://mastra.ai/examples/evals/textual-difference"
+    },
+    {
+      "title": "Tone Consistency",
+      "href": "/examples/evals/tone-consistency",
+      "fullUrl": "https://mastra.ai/examples/evals/tone-consistency"
+    },
+    {
+      "title": "Toxicity",
+      "href": "/examples/evals/toxicity",
+      "fullUrl": "https://mastra.ai/examples/evals/toxicity"
+    },
+    {
+      "title": "Word Inclusion",
+      "href": "/examples/evals/word-inclusion",
+      "fullUrl": "https://mastra.ai/examples/evals/word-inclusion"
+    },
+    {
+      "title": "Text to Speech",
+      "href": "/examples/voice/text-to-speech",
+      "fullUrl": "https://mastra.ai/examples/voice/text-to-speech"
+    },
+    {
+      "title": "Speech to Text",
+      "href": "/examples/voice/speech-to-text",
+      "fullUrl": "https://mastra.ai/examples/voice/speech-to-text"
+    },
+    {
+      "title": "Turn Taking",
+      "href": "/examples/voice/turn-taking",
+      "fullUrl": "https://mastra.ai/examples/voice/turn-taking"
+    },
+    {
+      "title": "Speech to Speech",
+      "href": "/examples/voice/speech-to-speech",
+      "fullUrl": "https://mastra.ai/examples/voice/speech-to-speech"
+    },
+    {
+      "title": "Overview",
+      "href": "/examples/deployment",
+      "fullUrl": "https://mastra.ai/examples/deployment"
+    },
+    {
+      "title": "Auth Middleware",
+      "href": "/examples/deployment/auth-middleware",
+      "fullUrl": "https://mastra.ai/examples/deployment/auth-middleware"
+    },
+    {
+      "title": "CORS Middleware",
+      "href": "/examples/deployment/cors-middleware",
+      "fullUrl": "https://mastra.ai/examples/deployment/cors-middleware"
+    },
+    {
+      "title": "Logging Middleware",
+      "href": "/examples/deployment/logging-middleware",
+      "fullUrl": "https://mastra.ai/examples/deployment/logging-middleware"
+    },
+    {
+      "title": "Custom API Route",
+      "href": "/examples/deployment/custom-api-route",
+      "fullUrl": "https://mastra.ai/examples/deployment/custom-api-route"
+    },
+    {
+      "title": "Deploying a Mastra Server",
+      "href": "/examples/deployment/deploying-mastra-server",
+      "fullUrl": "https://mastra.ai/examples/deployment/deploying-mastra-server"
+    },
+    {
+      "title": "Overview",
+      "href": "/guides",
+      "fullUrl": "https://mastra.ai/guides"
+    },
+    {
+      "title": "Agents: Chef Michel",
+      "href": "/guides/guide/chef-michel",
+      "fullUrl": "https://mastra.ai/guides/guide/chef-michel"
+    },
+    {
+      "title": "Tools: Stock Agent",
+      "href": "/guides/guide/stock-agent",
+      "fullUrl": "https://mastra.ai/guides/guide/stock-agent"
+    },
+    {
+      "title": "Workflows: AI Recruiter",
+      "href": "/guides/guide/ai-recruiter",
+      "fullUrl": "https://mastra.ai/guides/guide/ai-recruiter"
+    },
+    {
+      "title": "RAG: Research Assistant",
+      "href": "/guides/guide/research-assistant",
+      "fullUrl": "https://mastra.ai/guides/guide/research-assistant"
+    },
+    {
+      "title": "Overview",
+      "href": "/reference",
+      "fullUrl": "https://mastra.ai/reference"
+    },
+    {
+      "title": "Mastra Class",
+      "href": "/reference/core/mastra-class",
+      "fullUrl": "https://mastra.ai/reference/core/mastra-class"
+    },
+    {
+      "title": "create-mastra",
+      "href": "/reference/cli/create-mastra",
+      "fullUrl": "https://mastra.ai/reference/cli/create-mastra"
+    },
+    {
+      "title": "mastra init",
+      "href": "/reference/cli/init",
+      "fullUrl": "https://mastra.ai/reference/cli/init"
+    },
+    {
+      "title": "mastra dev",
+      "href": "/reference/cli/dev",
+      "fullUrl": "https://mastra.ai/reference/cli/dev"
+    },
+    {
+      "title": "mastra build",
+      "href": "/reference/cli/build",
+      "fullUrl": "https://mastra.ai/reference/cli/build"
+    },
+    {
+      "title": "mastra start",
+      "href": "/reference/cli/start",
+      "fullUrl": "https://mastra.ai/reference/cli/start"
+    },
+    {
+      "title": "mastra lint",
+      "href": "/reference/cli/lint",
+      "fullUrl": "https://mastra.ai/reference/cli/lint"
+    },
+    {
+      "title": "mcp-docs-server",
+      "href": "/reference/cli/mcp-docs-server",
+      "fullUrl": "https://mastra.ai/reference/cli/mcp-docs-server"
+    },
+    {
+      "title": "Agent",
+      "href": "/reference/agents/agent",
+      "fullUrl": "https://mastra.ai/reference/agents/agent"
+    },
+    {
+      "title": "getAgent()",
+      "href": "/reference/agents/getAgent",
+      "fullUrl": "https://mastra.ai/reference/agents/getAgent"
+    },
+    {
+      "title": "createTool()",
+      "href": "/reference/agents/createTool",
+      "fullUrl": "https://mastra.ai/reference/agents/createTool"
+    },
+    {
+      "title": "generate()",
+      "href": "/reference/agents/generate",
+      "fullUrl": "https://mastra.ai/reference/agents/generate"
+    },
+    {
+      "title": "stream()",
+      "href": "/reference/agents/stream",
+      "fullUrl": "https://mastra.ai/reference/agents/stream"
+    },
+    {
+      "title": "getWorkflows()",
+      "href": "/reference/agents/getWorkflows",
+      "fullUrl": "https://mastra.ai/reference/agents/getWorkflows"
+    },
+    {
+      "title": "getVoice()",
+      "href": "/reference/agents/getVoice",
+      "fullUrl": "https://mastra.ai/reference/agents/getVoice"
+    },
+    {
+      "title": "getInstructions()",
+      "href": "/reference/agents/getInstructions",
+      "fullUrl": "https://mastra.ai/reference/agents/getInstructions"
+    },
+    {
+      "title": "getTools()",
+      "href": "/reference/agents/getTools",
+      "fullUrl": "https://mastra.ai/reference/agents/getTools"
+    },
+    {
+      "title": "getModel()",
+      "href": "/reference/agents/getModel",
+      "fullUrl": "https://mastra.ai/reference/agents/getModel"
+    },
+    {
+      "title": "getMemory()",
+      "href": "/reference/agents/getMemory",
+      "fullUrl": "https://mastra.ai/reference/agents/getMemory"
+    },
+    {
+      "title": "createTool()",
+      "href": "/reference/tools/create-tool",
+      "fullUrl": "https://mastra.ai/reference/tools/create-tool"
+    },
+    {
+      "title": "MCPClient",
+      "href": "/reference/tools/mcp-client",
+      "fullUrl": "https://mastra.ai/reference/tools/mcp-client"
+    },
+    {
+      "title": "MCPServer",
+      "href": "/reference/tools/mcp-server",
+      "fullUrl": "https://mastra.ai/reference/tools/mcp-server"
+    },
+    {
+      "title": "createDocumentChunkerTool()",
+      "href": "/reference/tools/document-chunker-tool",
+      "fullUrl": "https://mastra.ai/reference/tools/document-chunker-tool"
+    },
+    {
+      "title": "createGraphRAGTool()",
+      "href": "/reference/tools/graph-rag-tool",
+      "fullUrl": "https://mastra.ai/reference/tools/graph-rag-tool"
+    },
+    {
+      "title": "createVectorQueryTool()",
+      "href": "/reference/tools/vector-query-tool",
+      "fullUrl": "https://mastra.ai/reference/tools/vector-query-tool"
+    },
+    {
+      "title": "Workflow",
+      "href": "/reference/workflows/workflow",
+      "fullUrl": "https://mastra.ai/reference/workflows/workflow"
+    },
+    {
+      "title": "createStep()",
+      "href": "/reference/workflows/step",
+      "fullUrl": "https://mastra.ai/reference/workflows/step"
+    },
+    {
+      "title": "then()",
+      "href": "/reference/workflows/then",
+      "fullUrl": "https://mastra.ai/reference/workflows/then"
+    },
+    {
+      "title": "parallel()",
+      "href": "/reference/workflows/parallel",
+      "fullUrl": "https://mastra.ai/reference/workflows/parallel"
+    },
+    {
+      "title": "branch()",
+      "href": "/reference/workflows/branch",
+      "fullUrl": "https://mastra.ai/reference/workflows/branch"
+    },
+    {
+      "title": "dowhile()",
+      "href": "/reference/workflows/dowhile",
+      "fullUrl": "https://mastra.ai/reference/workflows/dowhile"
+    },
+    {
+      "title": "dountil()",
+      "href": "/reference/workflows/dountil",
+      "fullUrl": "https://mastra.ai/reference/workflows/dountil"
+    },
+    {
+      "title": "foreach()",
+      "href": "/reference/workflows/foreach",
+      "fullUrl": "https://mastra.ai/reference/workflows/foreach"
+    },
+    {
+      "title": "map()",
+      "href": "/reference/workflows/map",
+      "fullUrl": "https://mastra.ai/reference/workflows/map"
+    },
+    {
+      "title": "commit()",
+      "href": "/reference/workflows/commit",
+      "fullUrl": "https://mastra.ai/reference/workflows/commit"
+    },
+    {
+      "title": "createRun()",
+      "href": "/reference/workflows/create-run",
+      "fullUrl": "https://mastra.ai/reference/workflows/create-run"
+    },
+    {
+      "title": "Snapshots",
+      "href": "/reference/workflows/snapshots",
+      "fullUrl": "https://mastra.ai/reference/workflows/snapshots"
+    },
+    {
+      "title": "watch()",
+      "href": "/reference/workflows/watch",
+      "fullUrl": "https://mastra.ai/reference/workflows/watch"
+    },
+    {
+      "title": "stream()",
+      "href": "/reference/workflows/stream",
+      "fullUrl": "https://mastra.ai/reference/workflows/stream"
+    },
+    {
+      "title": "execute()",
+      "href": "/reference/workflows/execute",
+      "fullUrl": "https://mastra.ai/reference/workflows/execute"
+    },
+    {
+      "title": "resume()",
+      "href": "/reference/workflows/resume",
+      "fullUrl": "https://mastra.ai/reference/workflows/resume"
+    },
+    {
+      "title": "start()",
+      "href": "/reference/workflows/start",
+      "fullUrl": "https://mastra.ai/reference/workflows/start"
+    },
+    {
+      "title": "Workflow",
+      "href": "/reference/legacyWorkflows/workflow",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/workflow"
+    },
+    {
+      "title": "Step",
+      "href": "/reference/legacyWorkflows/step-class",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/step-class"
+    },
+    {
+      "title": "StepOptions",
+      "href": "/reference/legacyWorkflows/step-options",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/step-options"
+    },
+    {
+      "title": "StepCondition",
+      "href": "/reference/legacyWorkflows/step-condition",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/step-condition"
+    },
+    {
+      "title": ".step()",
+      "href": "/reference/legacyWorkflows/step-function",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/step-function"
+    },
+    {
+      "title": ".after()",
+      "href": "/reference/legacyWorkflows/after",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/after"
+    },
+    {
+      "title": ".then()",
+      "href": "/reference/legacyWorkflows/then",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/then"
+    },
+    {
+      "title": ".until()",
+      "href": "/reference/legacyWorkflows/until",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/until"
+    },
+    {
+      "title": ".while()",
+      "href": "/reference/legacyWorkflows/while",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/while"
+    },
+    {
+      "title": ".if()",
+      "href": "/reference/legacyWorkflows/if",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/if"
+    },
+    {
+      "title": ".else()",
+      "href": "/reference/legacyWorkflows/else",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/else"
+    },
+    {
+      "title": ".createRun()",
+      "href": "/reference/legacyWorkflows/createRun",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/createRun"
+    },
+    {
+      "title": ".start()",
+      "href": "/reference/legacyWorkflows/start",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/start"
+    },
+    {
+      "title": ".execute()",
+      "href": "/reference/legacyWorkflows/execute",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/execute"
+    },
+    {
+      "title": ".suspend()",
+      "href": "/reference/legacyWorkflows/suspend",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/suspend"
+    },
+    {
+      "title": "Snapshots",
+      "href": "/reference/legacyWorkflows/snapshots",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/snapshots"
+    },
+    {
+      "title": ".resume()",
+      "href": "/reference/legacyWorkflows/resume",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/resume"
+    },
+    {
+      "title": ".commit()",
+      "href": "/reference/legacyWorkflows/commit",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/commit"
+    },
+    {
+      "title": ".watch()",
+      "href": "/reference/legacyWorkflows/watch",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/watch"
+    },
+    {
+      "title": "Event-Driven Workflows",
+      "href": "/reference/legacyWorkflows/events",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/events"
+    },
+    {
+      "title": ".afterEvent()",
+      "href": "/reference/legacyWorkflows/afterEvent",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/afterEvent"
+    },
+    {
+      "title": ".resumeWithEvent()",
+      "href": "/reference/legacyWorkflows/resumeWithEvent",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/resumeWithEvent"
+    },
+    {
+      "title": "Step Retries",
+      "href": "/reference/legacyWorkflows/step-retries",
+      "fullUrl": "https://mastra.ai/reference/legacyWorkflows/step-retries"
+    },
+    {
+      "title": "AgentNetwork (Experimental)",
+      "href": "/reference/networks/agent-network",
+      "fullUrl": "https://mastra.ai/reference/networks/agent-network"
+    },
+    {
+      "title": "Memory Class",
+      "href": "/reference/memory/Memory",
+      "fullUrl": "https://mastra.ai/reference/memory/Memory"
+    },
+    {
+      "title": ".createThread()",
+      "href": "/reference/memory/createThread",
+      "fullUrl": "https://mastra.ai/reference/memory/createThread"
+    },
+    {
+      "title": ".query()",
+      "href": "/reference/memory/query",
+      "fullUrl": "https://mastra.ai/reference/memory/query"
+    },
+    {
+      "title": ".getThreadById()",
+      "href": "/reference/memory/getThreadById",
+      "fullUrl": "https://mastra.ai/reference/memory/getThreadById"
+    },
+    {
+      "title": ".getThreadsByResourceId()",
+      "href": "/reference/memory/getThreadsByResourceId",
+      "fullUrl": "https://mastra.ai/reference/memory/getThreadsByResourceId"
+    },
+    {
+      "title": "LibSQL Storage",
+      "href": "/reference/storage/libsql",
+      "fullUrl": "https://mastra.ai/reference/storage/libsql"
+    },
+    {
+      "title": "PostgreSQL Storage",
+      "href": "/reference/storage/postgresql",
+      "fullUrl": "https://mastra.ai/reference/storage/postgresql"
+    },
+    {
+      "title": "Upstash Storage",
+      "href": "/reference/storage/upstash",
+      "fullUrl": "https://mastra.ai/reference/storage/upstash"
+    },
+    {
+      "title": "Cloudflare KV Storage",
+      "href": "/reference/storage/cloudflare",
+      "fullUrl": "https://mastra.ai/reference/storage/cloudflare"
+    },
+    {
+      "title": "Cloudflare D1 Storage",
+      "href": "/reference/storage/cloudflare-d1",
+      "fullUrl": "https://mastra.ai/reference/storage/cloudflare-d1"
+    },
+    {
+      "title": "DynamoDB Storage",
+      "href": "/reference/storage/dynamodb",
+      "fullUrl": "https://mastra.ai/reference/storage/dynamodb"
+    },
+    {
+      "title": "LanceDB Storage",
+      "href": "/reference/storage/lance",
+      "fullUrl": "https://mastra.ai/reference/storage/lance"
+    },
+    {
+      "title": ".chunk()",
+      "href": "/reference/rag/chunk",
+      "fullUrl": "https://mastra.ai/reference/rag/chunk"
+    },
+    {
+      "title": ".embed()",
+      "href": "/reference/rag/embeddings",
+      "fullUrl": "https://mastra.ai/reference/rag/embeddings"
+    },
+    {
+      "title": "ExtractParams",
+      "href": "/reference/rag/extract-params",
+      "fullUrl": "https://mastra.ai/reference/rag/extract-params"
+    },
+    {
+      "title": "rerank()",
+      "href": "/reference/rag/rerank",
+      "fullUrl": "https://mastra.ai/reference/rag/rerank"
+    },
+    {
+      "title": "MDocument",
+      "href": "/reference/rag/document",
+      "fullUrl": "https://mastra.ai/reference/rag/document"
+    },
+    {
+      "title": "Metadata Filters",
+      "href": "/reference/rag/metadata-filters",
+      "fullUrl": "https://mastra.ai/reference/rag/metadata-filters"
+    },
+    {
+      "title": "DatabaseConfig",
+      "href": "/reference/rag/database-config",
+      "fullUrl": "https://mastra.ai/reference/rag/database-config"
+    },
+    {
+      "title": "GraphRAG",
+      "href": "/reference/rag/graph-rag",
+      "fullUrl": "https://mastra.ai/reference/rag/graph-rag"
+    },
+    {
+      "title": "AstraVector",
+      "href": "/reference/rag/astra",
+      "fullUrl": "https://mastra.ai/reference/rag/astra"
+    },
+    {
+      "title": "ChromaVector",
+      "href": "/reference/rag/chroma",
+      "fullUrl": "https://mastra.ai/reference/rag/chroma"
+    },
+    {
+      "title": "CloudflareVector",
+      "href": "/reference/rag/vectorize",
+      "fullUrl": "https://mastra.ai/reference/rag/vectorize"
+    },
+    {
+      "title": "PgVector",
+      "href": "/reference/rag/pg",
+      "fullUrl": "https://mastra.ai/reference/rag/pg"
+    },
+    {
+      "title": "LibSQLVector",
+      "href": "/reference/rag/libsql",
+      "fullUrl": "https://mastra.ai/reference/rag/libsql"
+    },
+    {
+      "title": "MongoDBVector",
+      "href": "/reference/rag/mongodb",
+      "fullUrl": "https://mastra.ai/reference/rag/mongodb"
+    },
+    {
+      "title": "CouchbaseVector",
+      "href": "/reference/rag/couchbase",
+      "fullUrl": "https://mastra.ai/reference/rag/couchbase"
+    },
+    {
+      "title": "OpenSearchVector",
+      "href": "/reference/rag/opensearch",
+      "fullUrl": "https://mastra.ai/reference/rag/opensearch"
+    },
+    {
+      "title": "PineconeVector",
+      "href": "/reference/rag/pinecone",
+      "fullUrl": "https://mastra.ai/reference/rag/pinecone"
+    },
+    {
+      "title": "QdrantVector",
+      "href": "/reference/rag/qdrant",
+      "fullUrl": "https://mastra.ai/reference/rag/qdrant"
+    },
+    {
+      "title": "TurboPuffer",
+      "href": "/reference/rag/turbopuffer",
+      "fullUrl": "https://mastra.ai/reference/rag/turbopuffer"
+    },
+    {
+      "title": "UpstashVector",
+      "href": "/reference/rag/upstash",
+      "fullUrl": "https://mastra.ai/reference/rag/upstash"
+    },
+    {
+      "title": "Reference: Lance Vector Store | Vector Databases | RAG | Mastra Docs",
+      "href": "/reference/rag/lance",
+      "fullUrl": "https://mastra.ai/reference/rag/lance"
+    },
+    {
+      "title": "AnswerRelevancy",
+      "href": "/reference/evals/answer-relevancy",
+      "fullUrl": "https://mastra.ai/reference/evals/answer-relevancy"
+    },
+    {
+      "title": "Bias",
+      "href": "/reference/evals/bias",
+      "fullUrl": "https://mastra.ai/reference/evals/bias"
+    },
+    {
+      "title": "Completeness",
+      "href": "/reference/evals/completeness",
+      "fullUrl": "https://mastra.ai/reference/evals/completeness"
+    },
+    {
+      "title": "ContentSimilarity",
+      "href": "/reference/evals/content-similarity",
+      "fullUrl": "https://mastra.ai/reference/evals/content-similarity"
+    },
+    {
+      "title": "ContextPosition",
+      "href": "/reference/evals/context-position",
+      "fullUrl": "https://mastra.ai/reference/evals/context-position"
+    },
+    {
+      "title": "ContextPrecision",
+      "href": "/reference/evals/context-precision",
+      "fullUrl": "https://mastra.ai/reference/evals/context-precision"
+    },
+    {
+      "title": "ContextRelevancy",
+      "href": "/reference/evals/context-relevancy",
+      "fullUrl": "https://mastra.ai/reference/evals/context-relevancy"
+    },
+    {
+      "title": "ContextualRecall",
+      "href": "/reference/evals/contextual-recall",
+      "fullUrl": "https://mastra.ai/reference/evals/contextual-recall"
+    },
+    {
+      "title": "Faithfulness",
+      "href": "/reference/evals/faithfulness",
+      "fullUrl": "https://mastra.ai/reference/evals/faithfulness"
+    },
+    {
+      "title": "Hallucination",
+      "href": "/reference/evals/hallucination",
+      "fullUrl": "https://mastra.ai/reference/evals/hallucination"
+    },
+    {
+      "title": "KeywordCoverage",
+      "href": "/reference/evals/keyword-coverage",
+      "fullUrl": "https://mastra.ai/reference/evals/keyword-coverage"
+    },
+    {
+      "title": "PromptAlignment",
+      "href": "/reference/evals/prompt-alignment",
+      "fullUrl": "https://mastra.ai/reference/evals/prompt-alignment"
+    },
+    {
+      "title": "Summarization",
+      "href": "/reference/evals/summarization",
+      "fullUrl": "https://mastra.ai/reference/evals/summarization"
+    },
+    {
+      "title": "TextualDifference",
+      "href": "/reference/evals/textual-difference",
+      "fullUrl": "https://mastra.ai/reference/evals/textual-difference"
+    },
+    {
+      "title": "ToneConsistency",
+      "href": "/reference/evals/tone-consistency",
+      "fullUrl": "https://mastra.ai/reference/evals/tone-consistency"
+    },
+    {
+      "title": "Toxicity",
+      "href": "/reference/evals/toxicity",
+      "fullUrl": "https://mastra.ai/reference/evals/toxicity"
+    },
+    {
+      "title": "Mastra Voice",
+      "href": "/reference/voice/mastra-voice",
+      "fullUrl": "https://mastra.ai/reference/voice/mastra-voice"
+    },
+    {
+      "title": "Composite Voice",
+      "href": "/reference/voice/composite-voice",
+      "fullUrl": "https://mastra.ai/reference/voice/composite-voice"
+    },
+    {
+      "title": ".speak()",
+      "href": "/reference/voice/voice.speak",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.speak"
+    },
+    {
+      "title": ".listen()",
+      "href": "/reference/voice/voice.listen",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.listen"
+    },
+    {
+      "title": ".getSpeakers()",
+      "href": "/reference/voice/voice.getSpeakers",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.getSpeakers"
+    },
+    {
+      "title": ".connect()rt.",
+      "href": "/reference/voice/voice.connect",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.connect"
+    },
+    {
+      "title": ".send()rt.",
+      "href": "/reference/voice/voice.send",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.send"
+    },
+    {
+      "title": ".answer()rt.",
+      "href": "/reference/voice/voice.answer",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.answer"
+    },
+    {
+      "title": ".on()rt.",
+      "href": "/reference/voice/voice.on",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.on"
+    },
+    {
+      "title": "eventsrt.",
+      "href": "/reference/voice/voice.events",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.events"
+    },
+    {
+      "title": ".off()rt.",
+      "href": "/reference/voice/voice.off",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.off"
+    },
+    {
+      "title": ".close()rt.",
+      "href": "/reference/voice/voice.close",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.close"
+    },
+    {
+      "title": ".addInstructions()rt.",
+      "href": "/reference/voice/voice.addInstructions",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.addInstructions"
+    },
+    {
+      "title": ".addTools()rt.",
+      "href": "/reference/voice/voice.addTools",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.addTools"
+    },
+    {
+      "title": ".updateConfig()rt.",
+      "href": "/reference/voice/voice.updateConfig",
+      "fullUrl": "https://mastra.ai/reference/voice/voice.updateConfig"
+    },
+    {
+      "title": "Deepgram",
+      "href": "/reference/voice/deepgram",
+      "fullUrl": "https://mastra.ai/reference/voice/deepgram"
+    },
+    {
+      "title": "ElevenLabs",
+      "href": "/reference/voice/elevenlabs",
+      "fullUrl": "https://mastra.ai/reference/voice/elevenlabs"
+    },
+    {
+      "title": "Google",
+      "href": "/reference/voice/google",
+      "fullUrl": "https://mastra.ai/reference/voice/google"
+    },
+    {
+      "title": "Murf",
+      "href": "/reference/voice/murf",
+      "fullUrl": "https://mastra.ai/reference/voice/murf"
+    },
+    {
+      "title": "OpenAI",
+      "href": "/reference/voice/openai",
+      "fullUrl": "https://mastra.ai/reference/voice/openai"
+    },
+    {
+      "title": "OpenAI Realtime",
+      "href": "/reference/voice/openai-realtime",
+      "fullUrl": "https://mastra.ai/reference/voice/openai-realtime"
+    },
+    {
+      "title": "PlayAI",
+      "href": "/reference/voice/playai",
+      "fullUrl": "https://mastra.ai/reference/voice/playai"
+    },
+    {
+      "title": "Sarvam",
+      "href": "/reference/voice/sarvam",
+      "fullUrl": "https://mastra.ai/reference/voice/sarvam"
+    },
+    {
+      "title": "Speechify",
+      "href": "/reference/voice/speechify",
+      "fullUrl": "https://mastra.ai/reference/voice/speechify"
+    },
+    {
+      "title": "Azure",
+      "href": "/reference/voice/azure",
+      "fullUrl": "https://mastra.ai/reference/voice/azure"
+    },
+    {
+      "title": "Cloudflare",
+      "href": "/reference/voice/cloudflare",
+      "fullUrl": "https://mastra.ai/reference/voice/cloudflare"
+    },
+    {
+      "title": "Overview",
+      "href": "/reference/observability/providers",
+      "fullUrl": "https://mastra.ai/reference/observability/providers"
+    },
+    {
+      "title": "Dash0",
+      "href": "/reference/observability/providers/dash0",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/dash0"
+    },
+    {
+      "title": "SigNoz",
+      "href": "/reference/observability/providers/signoz",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/signoz"
+    },
+    {
+      "title": "Braintrust",
+      "href": "/reference/observability/providers/braintrust",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/braintrust"
+    },
+    {
+      "title": "LangSmith",
+      "href": "/reference/observability/providers/langsmith",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/langsmith"
+    },
+    {
+      "title": "Langfuse",
+      "href": "/reference/observability/providers/langfuse",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/langfuse"
+    },
+    {
+      "title": "LangWatch",
+      "href": "/reference/observability/providers/langwatch",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/langwatch"
+    },
+    {
+      "title": "New Relic",
+      "href": "/reference/observability/providers/new-relic",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/new-relic"
+    },
+    {
+      "title": "Traceloop",
+      "href": "/reference/observability/providers/traceloop",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/traceloop"
+    },
+    {
+      "title": "Laminar",
+      "href": "/reference/observability/providers/laminar",
+      "fullUrl": "https://mastra.ai/reference/observability/providers/laminar"
+    },
+    {
+      "title": "Logger",
+      "href": "/reference/observability/logger",
+      "fullUrl": "https://mastra.ai/reference/observability/logger"
+    },
+    {
+      "title": "OTelConfig",
+      "href": "/reference/observability/otel-config",
+      "fullUrl": "https://mastra.ai/reference/observability/otel-config"
+    },
+    {
+      "title": "Agents API",
+      "href": "/reference/client-js/agents",
+      "fullUrl": "https://mastra.ai/reference/client-js/agents"
+    },
+    {
+      "title": "Memory API",
+      "href": "/reference/client-js/memory",
+      "fullUrl": "https://mastra.ai/reference/client-js/memory"
+    },
+    {
+      "title": "Tools API",
+      "href": "/reference/client-js/tools",
+      "fullUrl": "https://mastra.ai/reference/client-js/tools"
+    },
+    {
+      "title": "Workflows API",
+      "href": "/reference/client-js/workflows",
+      "fullUrl": "https://mastra.ai/reference/client-js/workflows"
+    },
+    {
+      "title": "Workflows (Legacy) API",
+      "href": "/reference/client-js/workflows-legacy",
+      "fullUrl": "https://mastra.ai/reference/client-js/workflows-legacy"
+    },
+    {
+      "title": "Vectors API",
+      "href": "/reference/client-js/vectors",
+      "fullUrl": "https://mastra.ai/reference/client-js/vectors"
+    },
+    {
+      "title": "Logs API",
+      "href": "/reference/client-js/logs",
+      "fullUrl": "https://mastra.ai/reference/client-js/logs"
+    },
+    {
+      "title": "Telemetry API",
+      "href": "/reference/client-js/telemetry",
+      "fullUrl": "https://mastra.ai/reference/client-js/telemetry"
+    },
+    {
+      "title": "Error Handling",
+      "href": "/reference/client-js/error-handling",
+      "fullUrl": "https://mastra.ai/reference/client-js/error-handling"
+    },
+    {
+      "title": "Deployer",
+      "href": "/reference/deployer/deployer",
+      "fullUrl": "https://mastra.ai/reference/deployer/deployer"
+    },
+    {
+      "title": "Cloudflare",
+      "href": "/reference/deployer/cloudflare",
+      "fullUrl": "https://mastra.ai/reference/deployer/cloudflare"
+    },
+    {
+      "title": "Netlify",
+      "href": "/reference/deployer/netlify",
+      "fullUrl": "https://mastra.ai/reference/deployer/netlify"
+    },
+    {
+      "title": "Vercel",
+      "href": "/reference/deployer/vercel",
+      "fullUrl": "https://mastra.ai/reference/deployer/vercel"
+    }
+  ]
+}

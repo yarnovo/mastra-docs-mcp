@@ -1,0 +1,10 @@
+{
+  "name": "Mastra Documentation",
+  "baseUrl": "https://mastra.ai",
+  "input": {
+    "htmlFolder": "mastra-nav"
+  },
+  "output": {
+    "jsonFile": "mastra-nav.json"
+  }
+} 

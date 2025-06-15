@@ -1,0 +1,2042 @@
+{
+  "total": 333,
+  "generated": "2025-06-15T10:22:00.526Z",
+  "stats": {
+    "totalLinks": 333,
+    "withPageTitle": 333,
+    "withPageDescription": 311,
+    "completionRate": {
+      "pageTitle": "100.0%",
+      "pageDescription": "93.4%"
+    }
+  },
+  "sourceInfo": {
+    "navigation": {
+      "name": "Mastra Documentation",
+      "baseUrl": "https://mastra.ai",
+      "sources": [
+        "docs",
+        "examples",
+        "guides",
+        "reference"
+      ],
+      "generated": "2025-06-15T10:08:27.987Z"
+    },
+    "descriptions": {
+      "name": "Mastra Documentation",
+      "processingStats": {
+        "totalLinks": 333,
+        "successCount": 333,
+        "failedCount": 0,
+        "successRate": "100.0%",
+        "processingTime": "395.1s"
+      },
+      "crawlerConfig": {
+        "batchSize": 10,
+        "headless": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "generated": "2025-06-15T10:15:08.577Z"
+    }
+  },
+  "links": [
+    {
+      "navTitle": "Introduction",
+      "link": "https://mastra.ai/docs",
+      "pageTitle": "Introduction | Mastra Docs",
+      "pageDescription": "Mastra is a TypeScript agent framework. It helps you build AI applications and features quickly. It gives you the set of primitives you need: workflows, agents, RAG, integrations, syncs and evals."
+    },
+    {
+      "navTitle": "Installation",
+      "link": "https://mastra.ai/docs/getting-started/installation",
+      "pageTitle": "Installing Mastra Locally | Getting Started | Mastra Docs",
+      "pageDescription": "Guide on installing Mastra and setting up the necessary prerequisites for running it with various LLM providers."
+    },
+    {
+      "navTitle": "Project Structure",
+      "link": "https://mastra.ai/docs/getting-started/project-structure",
+      "pageTitle": "Local Project Structure | Getting Started | Mastra Docs",
+      "pageDescription": "Guide on organizing folders and files in Mastra, including best practices and recommended structures."
+    },
+    {
+      "navTitle": "MCP Docs Server",
+      "link": "https://mastra.ai/docs/getting-started/mcp-docs-server",
+      "pageTitle": "Using with Cursor/Windsurf | Getting Started | Mastra Docs",
+      "pageDescription": "Learn how to use the Mastra MCP documentation server in your IDE to turn it into an agentic Mastra expert."
+    },
+    {
+      "navTitle": "Model Providers",
+      "link": "https://mastra.ai/docs/getting-started/model-providers",
+      "pageTitle": "Model Providers | Getting Started | Mastra Docs",
+      "pageDescription": "Learn how to configure and use different model providers with Mastra."
+    },
+    {
+      "navTitle": "Model Capabilities",
+      "link": "https://mastra.ai/docs/getting-started/model-capability",
+      "pageTitle": "Model Capability",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/agents/overview",
+      "pageTitle": "Creating and Calling Agents | Agent Documentation | Mastra",
+      "pageDescription": "Overview of agents in Mastra, detailing their capabilities and how they interact with tools, workflows, and external systems."
+    },
+    {
+      "navTitle": "Agent Memory",
+      "link": "https://mastra.ai/docs/agents/agent-memory",
+      "pageTitle": "Using Agent Memory | Agents | Mastra Docs",
+      "pageDescription": "Documentation on how agents in Mastra use memory to store conversation history and contextual information."
+    },
+    {
+      "navTitle": "Tools and MCP",
+      "link": "https://mastra.ai/docs/agents/using-tools-and-mcp",
+      "pageTitle": "Using Tools with Agents | Agents | Mastra Docs",
+      "pageDescription": "Learn how to create tools, add them to Mastra agents, and integrate tools from MCP servers."
+    },
+    {
+      "navTitle": "Adding Voice",
+      "link": "https://mastra.ai/docs/agents/adding-voice",
+      "pageTitle": "Adding Voice to Agents",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Runtime Context",
+      "link": "https://mastra.ai/docs/agents/runtime-variables",
+      "pageTitle": "Runtime context | Agents | Mastra Docs",
+      "pageDescription": "Learn how to use Mastra's dependency injection system to provide runtime configuration to agents and tools."
+    },
+    {
+      "navTitle": "Dynamic Agents",
+      "link": "https://mastra.ai/docs/agents/dynamic-agents",
+      "pageTitle": "Dynamic Agents",
+      "pageDescription": "Dynamically configure your agent's instruction, model and tools using runtime context."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/tools-mcp/overview",
+      "pageTitle": "Tools Overview | Tools & MCP | Mastra Docs",
+      "pageDescription": "Understand what tools are in Mastra, how to add them to agents, and best practices for designing effective tools."
+    },
+    {
+      "navTitle": "MCP Overview",
+      "link": "https://mastra.ai/docs/tools-mcp/mcp-overview",
+      "pageTitle": "MCP Overview | Tools & MCP | Mastra Docs",
+      "pageDescription": "Learn about the Model Context Protocol (MCP), how to use third-party tools via MCPClient, connect to registries, and share your own tools using MCPServer."
+    },
+    {
+      "navTitle": "Dynamic Tool Context",
+      "link": "https://mastra.ai/docs/tools-mcp/dynamic-context",
+      "pageTitle": "Dynamic Tool Context | Tools & MCP | Mastra Docs",
+      "pageDescription": "Learn how to use Mastra's RuntimeContext to provide dynamic, request-specific configuration to tools."
+    },
+    {
+      "navTitle": "Advanced Usage",
+      "link": "https://mastra.ai/docs/tools-mcp/advanced-usage",
+      "pageTitle": "Advanced Tool Usage | Tools & MCP | Mastra Docs",
+      "pageDescription": "This page covers advanced features for Mastra tools, including abort signals and compatibility with the Vercel AI SDK tool format."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/memory/overview",
+      "pageTitle": "Memory overview",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Semantic Recall",
+      "link": "https://mastra.ai/docs/memory/semantic-recall",
+      "pageTitle": "Semantic Recall",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Working Memory",
+      "link": "https://mastra.ai/docs/memory/working-memory",
+      "pageTitle": "Working Memory",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Memory Processors",
+      "link": "https://mastra.ai/docs/memory/memory-processors",
+      "pageTitle": "Memory Processors",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Overviewnew",
+      "link": "https://mastra.ai/docs/workflows/overview",
+      "pageTitle": "Handling Complex LLM Operations | Workflows | Mastra",
+      "pageDescription": "Workflows in Mastra help you orchestrate complex sequences of operations with features like branching, parallel execution, resource suspension, and more."
+    },
+    {
+      "navTitle": "Control Flow",
+      "link": "https://mastra.ai/docs/workflows/control-flow",
+      "pageTitle": "Branching, Merging, Conditions | Workflows | Mastra Docs",
+      "pageDescription": "Control flow in Mastra workflows allows you to manage branching, merging, and conditions to construct workflows that meet your logic requirements."
+    },
+    {
+      "navTitle": "Suspend & Resume",
+      "link": "https://mastra.ai/docs/workflows/suspend-and-resume",
+      "pageTitle": "Suspend & Resume Workflows | Human-in-the-Loop | Mastra Docs",
+      "pageDescription": "Suspend and resume in Mastra workflows allows you to pause execution while waiting for external input or resources."
+    },
+    {
+      "navTitle": "Input Data Mapping",
+      "link": "https://mastra.ai/docs/workflows/input-data-mapping",
+      "pageTitle": "Input Data Mapping with Workflow | Mastra Docs",
+      "pageDescription": "Learn how to use workflow input mapping to create more dynamic data flows in your Mastra workflows."
+    },
+    {
+      "navTitle": "Agents and Tools",
+      "link": "https://mastra.ai/docs/workflows/using-with-agents-and-tools",
+      "pageTitle": "Using Workflows with Agents and Tools | Workflows | Mastra Docs",
+      "pageDescription": "Steps in Mastra workflows provide a structured way to manage operations by defining inputs, outputs, and execution logic."
+    },
+    {
+      "navTitle": "Inngest Workflowexp.",
+      "link": "https://mastra.ai/docs/workflows/inngest-workflow",
+      "pageTitle": "Inngest Workflows | Workflows | Mastra Docs",
+      "pageDescription": "Inngest workflow allows you to run Mastra workflows with Inngest"
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/workflows-legacy/overview",
+      "pageTitle": "Handling Complex LLM Operations | Workflows (Legacy) | Mastra",
+      "pageDescription": "Workflows in Mastra help you orchestrate complex sequences of operations with features like branching, parallel execution, resource suspension, and more."
+    },
+    {
+      "navTitle": "Steps",
+      "link": "https://mastra.ai/docs/workflows-legacy/steps",
+      "pageTitle": "Creating Steps and Adding to Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Steps in Mastra workflows provide a structured way to manage operations by defining inputs, outputs, and execution logic."
+    },
+    {
+      "navTitle": "Control Flow",
+      "link": "https://mastra.ai/docs/workflows-legacy/control-flow",
+      "pageTitle": "Branching, Merging, Conditions | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Control flow in Mastra legacy workflows allows you to manage branching, merging, and conditions to construct legacy workflows that meet your logic requirements."
+    },
+    {
+      "navTitle": "Variables",
+      "link": "https://mastra.ai/docs/workflows-legacy/variables",
+      "pageTitle": "Data Mapping with Workflow (Legacy) Variables | Mastra Docs",
+      "pageDescription": "Learn how to use workflow variables to map data between steps and create dynamic data flows in your Mastra workflows."
+    },
+    {
+      "navTitle": "Suspend & Resume",
+      "link": "https://mastra.ai/docs/workflows-legacy/suspend-and-resume",
+      "pageTitle": "Suspend & Resume Workflows (Legacy) | Human-in-the-Loop | Mastra Docs",
+      "pageDescription": "Suspend and resume in Mastra workflows allows you to pause execution while waiting for external input or resources."
+    },
+    {
+      "navTitle": "Dynamic Workflows",
+      "link": "https://mastra.ai/docs/workflows-legacy/dynamic-workflows",
+      "pageTitle": "Dynamic Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Learn how to create dynamic workflows within legacy workflow steps, allowing for flexible workflow creation based on runtime conditions."
+    },
+    {
+      "navTitle": "Error Handling",
+      "link": "https://mastra.ai/docs/workflows-legacy/error-handling",
+      "pageTitle": "Error Handling in Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Learn how to handle errors in Mastra legacy workflows using step retries, conditional branching, and monitoring."
+    },
+    {
+      "navTitle": "Nested Workflows",
+      "link": "https://mastra.ai/docs/workflows-legacy/nested-workflows",
+      "pageTitle": "Nested Workflows (Legacy)",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Runtime/Dynamic Variables",
+      "link": "https://mastra.ai/docs/workflows-legacy/runtime-variables",
+      "pageTitle": "Runtime variables - dependency injection | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Learn how to use Mastra's dependency injection system to provide runtime configuration to workflows and steps."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/rag/overview",
+      "pageTitle": "RAG (Retrieval-Augmented Generation) in Mastra | Mastra Docs",
+      "pageDescription": "Overview of Retrieval-Augmented Generation (RAG) in Mastra, detailing its capabilities for enhancing LLM outputs with relevant context."
+    },
+    {
+      "navTitle": "Chunking and Embedding",
+      "link": "https://mastra.ai/docs/rag/chunking-and-embedding",
+      "pageTitle": "Chunking and Embedding Documents | RAG | Mastra Docs",
+      "pageDescription": "Guide on chunking and embedding documents in Mastra for efficient processing and retrieval."
+    },
+    {
+      "navTitle": "Vector Databases",
+      "link": "https://mastra.ai/docs/rag/vector-databases",
+      "pageTitle": "Storing Embeddings in A Vector Database | Mastra Docs",
+      "pageDescription": "Guide on vector storage options in Mastra, including embedded and dedicated vector databases for similarity search."
+    },
+    {
+      "navTitle": "Retrieval",
+      "link": "https://mastra.ai/docs/rag/retrieval",
+      "pageTitle": "Retrieval, Semantic Search, Reranking | RAG | Mastra Docs",
+      "pageDescription": "Guide on retrieval processes in Mastra's RAG systems, including semantic search, filtering, and re-ranking."
+    },
+    {
+      "navTitle": "Creating a New Project",
+      "link": "https://mastra.ai/docs/local-dev/creating-a-new-project",
+      "pageTitle": "Creating a new Project | Mastra Local Development Docs",
+      "pageDescription": "Create new Mastra projects or add Mastra to existing Node.js applications using the CLI"
+    },
+    {
+      "navTitle": "Add to an Existing Project",
+      "link": "https://mastra.ai/docs/local-dev/add-to-existing-project",
+      "pageTitle": "Adding to an Existing Project | Mastra Local Development Docs",
+      "pageDescription": "Add Mastra to your existing Node.js applications"
+    },
+    {
+      "navTitle": "Development Environment",
+      "link": "https://mastra.ai/docs/local-dev/mastra-dev",
+      "pageTitle": "Inspecting Agents with `mastra dev` | Mastra Local Dev Docs",
+      "pageDescription": "Documentation for the Mastra local development environment for Mastra applications."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/deployment/overview",
+      "pageTitle": "Deployment Overview",
+      "pageDescription": "Learn about different deployment options for your Mastra applications"
+    },
+    {
+      "navTitle": "With a Server",
+      "link": "https://mastra.ai/docs/deployment/server",
+      "pageTitle": "Creating A Mastra Server",
+      "pageDescription": "Configure and customize the Mastra server with middleware and other options"
+    },
+    {
+      "navTitle": "Middleware",
+      "link": "https://mastra.ai/docs/deployment/middleware",
+      "pageTitle": "Middleware",
+      "pageDescription": "Apply custom middleware functions to intercept requests."
+    },
+    {
+      "navTitle": "Custom API Routes",
+      "link": "https://mastra.ai/docs/deployment/custom-api-routes",
+      "pageTitle": "Custom API Routes",
+      "pageDescription": "Expose additional HTTP endpoints from your Mastra server."
+    },
+    {
+      "navTitle": "Serverless Platforms",
+      "link": "https://mastra.ai/docs/deployment/deployment",
+      "pageTitle": "Serverless Deployment",
+      "pageDescription": "Build and deploy Mastra applications using platform-specific deployers or standard HTTP servers"
+    },
+    {
+      "navTitle": "Mastra Client SDK",
+      "link": "https://mastra.ai/docs/deployment/client",
+      "pageTitle": "MastraClient",
+      "pageDescription": "Learn how to set up and use the Mastra Client SDK"
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/mastra-cloud/overview",
+      "pageTitle": "Mastra Cloud",
+      "pageDescription": "Deployment and monitoring service for Mastra applications"
+    },
+    {
+      "navTitle": "Setting Up a Project",
+      "link": "https://mastra.ai/docs/mastra-cloud/setting-up",
+      "pageTitle": "Setting Up a Project",
+      "pageDescription": "Configuration steps for Mastra Cloud projects"
+    },
+    {
+      "navTitle": "Deploying",
+      "link": "https://mastra.ai/docs/mastra-cloud/deploying",
+      "pageTitle": "Deploying to Mastra Cloud",
+      "pageDescription": "GitHub-based deployment process for Mastra applications"
+    },
+    {
+      "navTitle": "Observability",
+      "link": "https://mastra.ai/docs/mastra-cloud/observability",
+      "pageTitle": "Observability in Mastra Cloud",
+      "pageDescription": "Monitoring and debugging tools for Mastra Cloud deployments"
+    },
+    {
+      "navTitle": "Logging",
+      "link": "https://mastra.ai/docs/observability/logging",
+      "pageTitle": "Logging | Mastra Observability Documentation",
+      "pageDescription": "Documentation on effective logging in Mastra, crucial for understanding application behavior and improving AI accuracy."
+    },
+    {
+      "navTitle": "Tracing",
+      "link": "https://mastra.ai/docs/observability/tracing",
+      "pageTitle": "Tracing | Mastra Observability Documentation",
+      "pageDescription": "Set up OpenTelemetry tracing for Mastra applications"
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/evals/overview",
+      "pageTitle": "Overview",
+      "pageDescription": "Understanding how to evaluate and measure AI agent quality using Mastra evals."
+    },
+    {
+      "navTitle": "Textual Evals",
+      "link": "https://mastra.ai/docs/evals/textual-evals",
+      "pageTitle": "Textual Evals",
+      "pageDescription": "Understand how Mastra uses LLM-as-judge methodology to evaluate text quality."
+    },
+    {
+      "navTitle": "Custom Evals",
+      "link": "https://mastra.ai/docs/evals/custom-eval",
+      "pageTitle": "Create your own Eval",
+      "pageDescription": "Mastra allows so create your own evals, here is how."
+    },
+    {
+      "navTitle": "Running in CI",
+      "link": "https://mastra.ai/docs/evals/running-in-ci",
+      "pageTitle": "Running in CI",
+      "pageDescription": "Learn how to run Mastra evals in your CI/CD pipeline to monitor agent quality over time."
+    },
+    {
+      "navTitle": "With Vercel AI SDK",
+      "link": "https://mastra.ai/docs/frameworks/agentic-uis/ai-sdk",
+      "pageTitle": "Using with Vercel AI SDK",
+      "pageDescription": "Learn how Mastra leverages the Vercel AI SDK library and how you can leverage it further with Mastra"
+    },
+    {
+      "navTitle": "With CopilotKit",
+      "link": "https://mastra.ai/docs/frameworks/agentic-uis/copilotkit",
+      "pageTitle": "Using with CopilotKit",
+      "pageDescription": "Learn how Mastra leverages the CopilotKit's AGUI library and how you can leverage it to build user experiences"
+    },
+    {
+      "navTitle": "With Assistant UI",
+      "link": "https://mastra.ai/docs/frameworks/agentic-uis/assistant-ui",
+      "pageTitle": "Using with Assistant UI",
+      "pageDescription": "Learn how to integrate Assistant UI with Mastra"
+    },
+    {
+      "navTitle": "With OpenRouter",
+      "link": "https://mastra.ai/docs/frameworks/agentic-uis/openrouter",
+      "pageTitle": "Using with OpenRouter",
+      "pageDescription": "Learn how to integrate OpenRouter with Mastra"
+    },
+    {
+      "navTitle": "With Express",
+      "link": "https://mastra.ai/docs/frameworks/servers/express",
+      "pageTitle": "Getting started with Mastra and Express | Mastra Guides",
+      "pageDescription": "A step-by-step guide to integrating Mastra with an Express backend."
+    },
+    {
+      "navTitle": "With Vite/React",
+      "link": "https://mastra.ai/docs/frameworks/web-frameworks/vite-react",
+      "pageTitle": "Getting Started with Mastra and Vite/React | Mastra Guides",
+      "pageDescription": "A step-by-step guide to integrating Mastra with Vite and React."
+    },
+    {
+      "navTitle": "With Next.js",
+      "link": "https://mastra.ai/docs/frameworks/web-frameworks/next-js",
+      "pageTitle": "Getting Started with Mastra and Next.js | Mastra Guides",
+      "pageDescription": "A step-by-step guide to integrating Mastra with Next.js."
+    },
+    {
+      "navTitle": "With Astro",
+      "link": "https://mastra.ai/docs/frameworks/web-frameworks/astro",
+      "pageTitle": "Getting Started with Mastra and Astro | Mastra Guides",
+      "pageDescription": "A step-by-step guide to integrating Mastra with Astro."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/storage/overview",
+      "pageTitle": "Storage in Mastra | Mastra Docs",
+      "pageDescription": "Overview of Mastra's storage system and data persistence capabilities."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/docs/voice/overview",
+      "pageTitle": "Voice in Mastra | Mastra Docs",
+      "pageDescription": "Overview of voice capabilities in Mastra, including text-to-speech, speech-to-text, and real-time speech-to-speech interactions."
+    },
+    {
+      "navTitle": "Text to Speech",
+      "link": "https://mastra.ai/docs/voice/text-to-speech",
+      "pageTitle": "Text-to-Speech (TTS) in Mastra | Mastra Docs",
+      "pageDescription": "Overview of Text-to-Speech capabilities in Mastra, including configuration, usage, and integration with voice providers."
+    },
+    {
+      "navTitle": "Speech to Text",
+      "link": "https://mastra.ai/docs/voice/speech-to-text",
+      "pageTitle": "Speech-to-Text (STT) in Mastra | Mastra Docs",
+      "pageDescription": "Overview of Speech-to-Text capabilities in Mastra, including configuration, usage, and integration with voice providers."
+    },
+    {
+      "navTitle": "Speech to Speechnew",
+      "link": "https://mastra.ai/docs/voice/speech-to-speech",
+      "pageTitle": "Speech-to-Speech Capabilities in Mastra | Mastra Docs",
+      "pageDescription": "Overview of speech-to-speech capabilities in Mastra, including real-time interactions and event-driven architecture."
+    },
+    {
+      "navTitle": "Licensing",
+      "link": "https://mastra.ai/docs/community/licensing",
+      "pageTitle": "Licensing",
+      "pageDescription": "Mastra License"
+    },
+    {
+      "navTitle": "Discord",
+      "link": "https://mastra.ai/docs/community/discord",
+      "pageTitle": "Discord Community and Bot | Documentation | Mastra",
+      "pageDescription": "Information about the Mastra Discord community and MCP bot."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/examples",
+      "pageTitle": "Examples List: Workflows, Agents, RAG | Mastra Docs",
+      "pageDescription": "Explore practical examples of AI development with Mastra, including text generation, RAG implementations, structured outputs, and multi-modal interactions. Learn how to build AI applications using OpenAI, Anthropic, and Google Gemini."
+    },
+    {
+      "navTitle": "Giving a System Prompt",
+      "link": "https://mastra.ai/examples/agents/system-prompt",
+      "pageTitle": "Example: Agents with a System Prompt | Agents | Mastra Docs",
+      "pageDescription": "Example of creating an AI agent in Mastra with a system prompt to define its personality and capabilities."
+    },
+    {
+      "navTitle": "Agentic Workflows",
+      "link": "https://mastra.ai/examples/agents/agentic-workflows",
+      "pageTitle": "Example: Calling Agentic Workflows | Agents | Mastra Docs",
+      "pageDescription": "Example of creating AI workflows in Mastra, demonstrating integration of external APIs with LLM-powered planning."
+    },
+    {
+      "navTitle": "Using a Tool",
+      "link": "https://mastra.ai/examples/agents/using-a-tool",
+      "pageTitle": "Example: Giving an Agent a Tool | Agents | Mastra Docs",
+      "pageDescription": "Example of creating an AI agent in Mastra that uses a dedicated tool to provide weather information."
+    },
+    {
+      "navTitle": "Hierarchical Multi-Agent System",
+      "link": "https://mastra.ai/examples/agents/hierarchical-multi-agent",
+      "pageTitle": "Example: Hierarchical Multi-Agent System | Agents | Mastra",
+      "pageDescription": "Example of creating a hierarchical multi-agent system using Mastra, where agents interact through tool functions."
+    },
+    {
+      "navTitle": "Multi-Agent Workflow",
+      "link": "https://mastra.ai/examples/agents/multi-agent-workflow",
+      "pageTitle": "Example: Multi-Agent Workflow | Agents | Mastra Docs",
+      "pageDescription": "Example of creating an agentic workflow in Mastra, where work product is passed between multiple agents."
+    },
+    {
+      "navTitle": "Bird Checker",
+      "link": "https://mastra.ai/examples/agents/bird-checker",
+      "pageTitle": "Example: Categorizing Birds | Agents | Mastra Docs",
+      "pageDescription": "Example of using a Mastra AI Agent to determine if an image from Unsplash depicts a bird."
+    },
+    {
+      "navTitle": "Give your Agent a voice",
+      "link": "https://mastra.ai/examples/agents/adding-voice-capabilities",
+      "pageTitle": "Example: Adding Voice Capabilities | Agents | Mastra",
+      "pageDescription": "Example of adding voice capabilities to Mastra agents, enabling them to speak and listen using different voice providers."
+    },
+    {
+      "navTitle": "Deploying an MCPServer",
+      "link": "https://mastra.ai/examples/agents/deploying-mcp-server",
+      "pageTitle": "Example: Deploying an MCPServer | Agents | Mastra Docs",
+      "pageDescription": "Example of setting up, building, and deploying a Mastra MCPServer using the stdio transport and publishing it to NPM."
+    },
+    {
+      "navTitle": "Dynamic Agents",
+      "link": "https://mastra.ai/examples/agents/dynamic-agents",
+      "pageTitle": "Dynamic Agents Example | Agents | Mastra Docs",
+      "pageDescription": "Learn how to create and configure dynamic agents using runtime context in Mastra."
+    },
+    {
+      "navTitle": "Conditional Branching",
+      "link": "https://mastra.ai/examples/workflows/conditional-branching",
+      "pageTitle": "Example: Conditional Branching | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create conditional branches in workflows using the `branch` statement ."
+    },
+    {
+      "navTitle": "Parallel Steps",
+      "link": "https://mastra.ai/examples/workflows/parallel-steps",
+      "pageTitle": "Example: Parallel Execution | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to execute multiple independent tasks in parallel within a workflow."
+    },
+    {
+      "navTitle": "Calling an Agent",
+      "link": "https://mastra.ai/examples/workflows/calling-agent",
+      "pageTitle": "Example: Calling an Agent from a Workflow | Mastra Docs",
+      "pageDescription": "Example of using Mastra to call an AI agent from within a workflow step."
+    },
+    {
+      "navTitle": "Tool & Agent as a Step",
+      "link": "https://mastra.ai/examples/workflows/agent-and-tool-interop",
+      "pageTitle": "Example: Using a Tool/Agent as a Step | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to integrate a tool or an agent as a step in a workflow."
+    },
+    {
+      "navTitle": "Human in the Loop",
+      "link": "https://mastra.ai/examples/workflows/human-in-the-loop",
+      "pageTitle": "Example: Human in the Loop | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create workflows with human intervention points."
+    },
+    {
+      "navTitle": "Control Flow",
+      "link": "https://mastra.ai/examples/workflows/control-flow",
+      "pageTitle": "Example: Control Flow | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create workflows with loops based on provided conditions."
+    },
+    {
+      "navTitle": "Array as Input",
+      "link": "https://mastra.ai/examples/workflows/array-as-input",
+      "pageTitle": "Example: Array as Input (.foreach()) | Workflows | Mastra Docs",
+      "pageDescription": "Example of using Mastra to process an array using .foreach() in a workflow."
+    },
+    {
+      "navTitle": "Inngest Workflow",
+      "link": "https://mastra.ai/examples/workflows/inngest-workflow",
+      "pageTitle": "Inngest Workflow | Workflows | Mastra Docs",
+      "pageDescription": "Example of building an inngest workflow with Mastra"
+    },
+    {
+      "navTitle": "Creating a Workflow",
+      "link": "https://mastra.ai/examples/workflows_legacy/creating-a-workflow",
+      "pageTitle": "Example: Creating a Workflow | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to define and execute a simple workflow with a single step."
+    },
+    {
+      "navTitle": "Sequential Steps",
+      "link": "https://mastra.ai/examples/workflows_legacy/sequential-steps",
+      "pageTitle": "Example: Sequential Steps | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to chain legacy workflow steps in a specific sequence, passing data between them."
+    },
+    {
+      "navTitle": "Parallel Steps",
+      "link": "https://mastra.ai/examples/workflows_legacy/parallel-steps",
+      "pageTitle": "Example: Parallel Execution | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to execute multiple independent tasks in parallel within a workflow."
+    },
+    {
+      "navTitle": "Branching Paths",
+      "link": "https://mastra.ai/examples/workflows_legacy/branching-paths",
+      "pageTitle": "Example: Branching Paths | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create legacy workflows with branching paths based on intermediate results."
+    },
+    {
+      "navTitle": "Conditional Branching",
+      "link": "https://mastra.ai/examples/workflows_legacy/conditional-branching",
+      "pageTitle": "Example: Conditional Branching (experimental) | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create conditional branches in legacy workflows using if/else statements."
+    },
+    {
+      "navTitle": "Calling an Agent",
+      "link": "https://mastra.ai/examples/workflows_legacy/calling-agent",
+      "pageTitle": "Example: Calling an Agent from a Workflow (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to call an AI agent from within a legacy workflow step."
+    },
+    {
+      "navTitle": "Using a Tool as a Step",
+      "link": "https://mastra.ai/examples/workflows_legacy/using-a-tool-as-a-step",
+      "pageTitle": "Example: Using a Tool as a Step | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to integrate a custom tool as a step in a legacy workflow."
+    },
+    {
+      "navTitle": "Cyclical Dependencies",
+      "link": "https://mastra.ai/examples/workflows_legacy/cyclical-dependencies",
+      "pageTitle": "Example: Cyclical Dependencies | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create legacy workflows with cyclical dependencies and conditional loops."
+    },
+    {
+      "navTitle": "Workflow Variables",
+      "link": "https://mastra.ai/examples/workflows_legacy/workflow-variables",
+      "pageTitle": "Data Mapping with Workflow Variables (Legacy) | Mastra Examples",
+      "pageDescription": "Learn how to use workflow variables to map data between steps in Mastra workflows."
+    },
+    {
+      "navTitle": "Example: Human in the Loop | Workflows (Legacy) | Mastra Docs",
+      "link": "https://mastra.ai/examples/workflows_legacy/human-in-the-loop",
+      "pageTitle": "Example: Human in the Loop | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create legacy workflows with human intervention points."
+    },
+    {
+      "navTitle": "Example: Suspend and Resume | Workflows (Legacy) | Mastra Docs",
+      "link": "https://mastra.ai/examples/workflows_legacy/suspend-and-resume",
+      "pageTitle": "Example: Suspend and Resume | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Example of using Mastra to suspend and resume legacy workflow steps during execution."
+    },
+    {
+      "navTitle": "Chunk Text",
+      "link": "https://mastra.ai/examples/rag/chunking/chunk-text",
+      "pageTitle": "Example: Semantically Chunking Text | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to split large text documents into smaller chunks for processing."
+    },
+    {
+      "navTitle": "Chunk Markdown",
+      "link": "https://mastra.ai/examples/rag/chunking/chunk-markdown",
+      "pageTitle": "Example: Semantically Chunking Markdown | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to chunk markdown documents for search or retrieval purposes."
+    },
+    {
+      "navTitle": "Chunk HTML",
+      "link": "https://mastra.ai/examples/rag/chunking/chunk-html",
+      "pageTitle": "Example: Semantically Chunking HTML | RAG | Mastra Docs",
+      "pageDescription": "Chunk HTML content in Mastra to semantically chunk the document."
+    },
+    {
+      "navTitle": "Chunk JSON",
+      "link": "https://mastra.ai/examples/rag/chunking/chunk-json",
+      "pageTitle": "Example: Semantically Chunking JSON | RAG | Mastra Docs",
+      "pageDescription": "Chunk JSON data in Mastra to semantically chunk the document."
+    },
+    {
+      "navTitle": "Adjust Chunk Size",
+      "link": "https://mastra.ai/examples/rag/chunking/adjust-chunk-size",
+      "pageTitle": "Example: Adjusting The Chunk Size | RAG | Mastra Docs",
+      "pageDescription": "Adjust chunk size in Mastra to better match your content and memory requirements."
+    },
+    {
+      "navTitle": "Adjust Chunk Delimiters",
+      "link": "https://mastra.ai/examples/rag/chunking/adjust-chunk-delimiters",
+      "pageTitle": "Example: Adjusting Chunk Delimiters | RAG | Mastra Docs",
+      "pageDescription": "Adjust chunk delimiters in Mastra to better match your content structure."
+    },
+    {
+      "navTitle": "Embed Text Chunk",
+      "link": "https://mastra.ai/examples/rag/embedding/embed-text-chunk",
+      "pageTitle": "Example: Embedding Text Chunks | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to generate an embedding for a single text chunk for similarity search."
+    },
+    {
+      "navTitle": "Embed Chunk Array",
+      "link": "https://mastra.ai/examples/rag/embedding/embed-chunk-array",
+      "pageTitle": "Example: Embedding Chunk Arrays | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to generate embeddings for an array of text chunks for similarity search."
+    },
+    {
+      "navTitle": "Embed Text with Cohere",
+      "link": "https://mastra.ai/examples/rag/embedding/embed-text-with-cohere",
+      "pageTitle": "Example: Embedding Text with Cohere | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to generate embeddings using Cohere's embedding model."
+    },
+    {
+      "navTitle": "Metadata Extraction",
+      "link": "https://mastra.ai/examples/rag/embedding/metadata-extraction",
+      "pageTitle": "Example: Metadata Extraction | Retrieval | RAG | Mastra Docs",
+      "pageDescription": "Example of extracting and utilizing metadata from documents in Mastra for enhanced document processing and retrieval."
+    },
+    {
+      "navTitle": "Upsert Embeddings",
+      "link": "https://mastra.ai/examples/rag/upsert/upsert-embeddings",
+      "pageTitle": "Example: Upsert Embeddings | RAG | Mastra Docs",
+      "pageDescription": "Examples of using Mastra to store embeddings in various vector databases for similarity search."
+    },
+    {
+      "navTitle": "Hybrid Vector Search",
+      "link": "https://mastra.ai/examples/rag/query/hybrid-vector-search",
+      "pageTitle": "Example: Hybrid Vector Search | RAG | Mastra Docs",
+      "pageDescription": "Example of using metadata filters with PGVector to enhance vector search results in Mastra."
+    },
+    {
+      "navTitle": "Retrieve Results",
+      "link": "https://mastra.ai/examples/rag/query/retrieve-results",
+      "pageTitle": "Example: Retrieving Top-K Results | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to query a vector database and retrieve semantically similar chunks."
+    },
+    {
+      "navTitle": "Re-ranking Results",
+      "link": "https://mastra.ai/examples/rag/rerank/rerank",
+      "pageTitle": "Example: Re-ranking Results | Retrieval | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing semantic re-ranking in Mastra using OpenAI embeddings and PGVector for vector storage."
+    },
+    {
+      "navTitle": "Re-ranking Results with Tools",
+      "link": "https://mastra.ai/examples/rag/rerank/rerank-rag",
+      "pageTitle": "Example: Re-ranking Results with Tools | Retrieval | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing a RAG system with re-ranking in Mastra using OpenAI embeddings and PGVector for vector storage."
+    },
+    {
+      "navTitle": "Re-ranking results with Cohere",
+      "link": "https://mastra.ai/examples/rag/rerank/reranking-with-cohere",
+      "pageTitle": "Example: Reranking with Cohere | RAG | Mastra Docs",
+      "pageDescription": "Example of using Mastra to improve document retrieval relevance with Cohere's reranking service."
+    },
+    {
+      "navTitle": "Using the Vector Query Tool",
+      "link": "https://mastra.ai/examples/rag/usage/basic-rag",
+      "pageTitle": "Example: Using the Vector Query Tool | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing a basic RAG system in Mastra using OpenAI embeddings and PGVector for vector storage."
+    },
+    {
+      "navTitle": "Optimizing Information Density",
+      "link": "https://mastra.ai/examples/rag/usage/cleanup-rag",
+      "pageTitle": "Example: Optimizing Information Density | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing a RAG system in Mastra to optimize information density and deduplicate data using LLM-based processing."
+    },
+    {
+      "navTitle": "Metadata Filtering",
+      "link": "https://mastra.ai/examples/rag/usage/filter-rag",
+      "pageTitle": "Example: Agent-Driven Metadata Filtering | Retrieval | RAG | Mastra Docs",
+      "pageDescription": "Example of using a Mastra agent in a RAG system to construct and apply metadata filters for document retrieval."
+    },
+    {
+      "navTitle": "Chain of Thought Prompting",
+      "link": "https://mastra.ai/examples/rag/usage/cot-rag",
+      "pageTitle": "Example: Chain of Thought Prompting | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing a RAG system in Mastra with chain-of-thought reasoning using OpenAI and PGVector."
+    },
+    {
+      "navTitle": "Structured Reasoning with Workflows",
+      "link": "https://mastra.ai/examples/rag/usage/cot-workflow-rag",
+      "pageTitle": "Example: Structured Reasoning with Workflows | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing structured reasoning in a RAG system using Mastra's workflow capabilities."
+    },
+    {
+      "navTitle": "Graph RAG",
+      "link": "https://mastra.ai/examples/rag/usage/graph-rag",
+      "pageTitle": "Example: A Complete Graph RAG System | RAG | Mastra Docs",
+      "pageDescription": "Example of implementing a Graph RAG system in Mastra using OpenAI embeddings and PGVector for vector storage."
+    },
+    {
+      "navTitle": "Database-Specific Configurations | RAG | Mastra Examples",
+      "link": "https://mastra.ai/examples/rag/usage/database-specific-config",
+      "pageTitle": "Database-Specific Configurations | RAG | Mastra Examples",
+      "pageDescription": "Learn how to use database-specific configurations to optimize vector search performance and leverage unique features of different vector stores."
+    },
+    {
+      "navTitle": "Memory with LibSQL",
+      "link": "https://mastra.ai/examples/memory/memory-with-libsql",
+      "pageTitle": "Memory with LibSQL",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Memory with PostgreSQL",
+      "link": "https://mastra.ai/examples/memory/memory-with-pg",
+      "pageTitle": "Memory with Postgres",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Memory with Upstash",
+      "link": "https://mastra.ai/examples/memory/memory-with-upstash",
+      "pageTitle": "Memory with Upstash",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Memory with Mem0",
+      "link": "https://mastra.ai/examples/memory/memory-with-mem0",
+      "pageTitle": "Memory with Mem0",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Streaming Working Memory",
+      "link": "https://mastra.ai/examples/memory/streaming-working-memory",
+      "pageTitle": "Streaming Working Memory",
+      "pageDescription": "Example of using working memory with an agent"
+    },
+    {
+      "navTitle": "Streaming Working Memory (Advanced)",
+      "link": "https://mastra.ai/examples/memory/streaming-working-memory-advanced",
+      "pageTitle": "Streaming Working Memory (advanced)",
+      "pageDescription": "Example of using working memory to maintain a todo list across conversations"
+    },
+    {
+      "navTitle": "Memory Processors",
+      "link": "https://mastra.ai/examples/memory/memory-processors",
+      "pageTitle": "Memory Processors",
+      "pageDescription": "Example of using memory processors to filter and transform recalled messages"
+    },
+    {
+      "navTitle": "AI SDK useChat Hook",
+      "link": "https://mastra.ai/examples/memory/use-chat",
+      "pageTitle": "AI SDK useChat Hook",
+      "pageDescription": "Example showing how to integrate Mastra memory with the Vercel AI SDK useChat hook."
+    },
+    {
+      "navTitle": "Answer Relevancy",
+      "link": "https://mastra.ai/examples/evals/answer-relevancy",
+      "pageTitle": "Example: Answer Relevancy | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Answer Relevancy metric to evaluate response relevancy to queries."
+    },
+    {
+      "navTitle": "Bias",
+      "link": "https://mastra.ai/examples/evals/bias",
+      "pageTitle": "Example: Bias | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Bias metric to evaluate responses for various forms of bias."
+    },
+    {
+      "navTitle": "Completeness",
+      "link": "https://mastra.ai/examples/evals/completeness",
+      "pageTitle": "Example: Completeness | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Completeness metric to evaluate how thoroughly responses cover input elements."
+    },
+    {
+      "navTitle": "Content Similarity",
+      "link": "https://mastra.ai/examples/evals/content-similarity",
+      "pageTitle": "Example: Content Similarity | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Content Similarity metric to evaluate text similarity between content."
+    },
+    {
+      "navTitle": "Context Position",
+      "link": "https://mastra.ai/examples/evals/context-position",
+      "pageTitle": "Example: Context Position | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Context Position metric to evaluate sequential ordering in responses."
+    },
+    {
+      "navTitle": "Context Precision",
+      "link": "https://mastra.ai/examples/evals/context-precision",
+      "pageTitle": "Example: Context Precision | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Context Precision metric to evaluate how precisely context information is used."
+    },
+    {
+      "navTitle": "Context Relevancy",
+      "link": "https://mastra.ai/examples/evals/context-relevancy",
+      "pageTitle": "Example: Context Relevancy | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Context Relevancy metric to evaluate how relevant context information is to a query."
+    },
+    {
+      "navTitle": "Contextual Recall",
+      "link": "https://mastra.ai/examples/evals/contextual-recall",
+      "pageTitle": "Example: Contextual Recall | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Contextual Recall metric to evaluate how well responses incorporate context information."
+    },
+    {
+      "navTitle": "Custom Eval",
+      "link": "https://mastra.ai/examples/evals/custom-eval",
+      "pageTitle": "Example: Custom Eval | Evals | Mastra Docs",
+      "pageDescription": "Example of creating custom LLM-based evaluation metrics in Mastra."
+    },
+    {
+      "navTitle": "Faithfulness",
+      "link": "https://mastra.ai/examples/evals/faithfulness",
+      "pageTitle": "Example: Faithfulness | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Faithfulness metric to evaluate how factually accurate responses are compared to context."
+    },
+    {
+      "navTitle": "Hallucination",
+      "link": "https://mastra.ai/examples/evals/hallucination",
+      "pageTitle": "Example: Hallucination | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Hallucination metric to evaluate factual contradictions in responses."
+    },
+    {
+      "navTitle": "Keyword Coverage",
+      "link": "https://mastra.ai/examples/evals/keyword-coverage",
+      "pageTitle": "Example: Keyword Coverage | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Keyword Coverage metric to evaluate how well responses cover important keywords from input text."
+    },
+    {
+      "navTitle": "Prompt Alignment",
+      "link": "https://mastra.ai/examples/evals/prompt-alignment",
+      "pageTitle": "Example: Prompt Alignment | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Prompt Alignment metric to evaluate instruction adherence in responses."
+    },
+    {
+      "navTitle": "Summarization",
+      "link": "https://mastra.ai/examples/evals/summarization",
+      "pageTitle": "Example: Summarization | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Summarization metric to evaluate how well LLM-generated summaries capture content while maintaining factual accuracy."
+    },
+    {
+      "navTitle": "Textual Difference",
+      "link": "https://mastra.ai/examples/evals/textual-difference",
+      "pageTitle": "Example: Textual Difference | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Textual Difference metric to evaluate similarity between text strings by analyzing sequence differences and changes."
+    },
+    {
+      "navTitle": "Tone Consistency",
+      "link": "https://mastra.ai/examples/evals/tone-consistency",
+      "pageTitle": "Example: Tone Consistency | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Tone Consistency metric to evaluate emotional tone patterns and sentiment consistency in text."
+    },
+    {
+      "navTitle": "Toxicity",
+      "link": "https://mastra.ai/examples/evals/toxicity",
+      "pageTitle": "Example: Toxicity | Evals | Mastra Docs",
+      "pageDescription": "Example of using the Toxicity metric to evaluate responses for harmful content and toxic language."
+    },
+    {
+      "navTitle": "Word Inclusion",
+      "link": "https://mastra.ai/examples/evals/word-inclusion",
+      "pageTitle": "Example: Word Inclusion | Evals | Mastra Docs",
+      "pageDescription": "Example of creating a custom metric to evaluate word inclusion in output text."
+    },
+    {
+      "navTitle": "Text to Speech",
+      "link": "https://mastra.ai/examples/voice/text-to-speech",
+      "pageTitle": "Example: Text to Speech | Voice | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create a text to speech application."
+    },
+    {
+      "navTitle": "Speech to Text",
+      "link": "https://mastra.ai/examples/voice/speech-to-text",
+      "pageTitle": "Example: Speech to Text | Voice | Mastra Docs",
+      "pageDescription": "Example of using Mastra to create a speech to text application."
+    },
+    {
+      "navTitle": "Turn Taking",
+      "link": "https://mastra.ai/examples/voice/turn-taking",
+      "pageTitle": "Turn Taking",
+      "pageDescription": "Example of using Mastra to create a multi-agent debate with turn-taking conversation flow."
+    },
+    {
+      "navTitle": "Speech to Speech",
+      "link": "https://mastra.ai/examples/voice/speech-to-speech",
+      "pageTitle": "Speech to Speech",
+      "pageDescription": "Example of using Mastra to create a speech to speech application."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/examples/deployment",
+      "pageTitle": "Deployment examples",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Auth Middleware",
+      "link": "https://mastra.ai/examples/deployment/auth-middleware",
+      "pageTitle": "Auth Middleware",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "CORS Middleware",
+      "link": "https://mastra.ai/examples/deployment/cors-middleware",
+      "pageTitle": "CORS Middleware",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Logging Middleware",
+      "link": "https://mastra.ai/examples/deployment/logging-middleware",
+      "pageTitle": "Logging Middleware",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Custom API Route",
+      "link": "https://mastra.ai/examples/deployment/custom-api-route",
+      "pageTitle": "Custom API Route",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Deploying a Mastra Server",
+      "link": "https://mastra.ai/examples/deployment/deploying-mastra-server",
+      "pageTitle": "Deploying a Mastra Server",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/guides",
+      "pageTitle": "Overview",
+      "pageDescription": "Guides on building with Mastra"
+    },
+    {
+      "navTitle": "Agents: Chef Michel",
+      "link": "https://mastra.ai/guides/guide/chef-michel",
+      "pageTitle": "Building an AI Chef Assistant | Mastra Agent Guides",
+      "pageDescription": "Guide on creating a Chef Assistant agent in Mastra to help users cook meals with available ingredients."
+    },
+    {
+      "navTitle": "Tools: Stock Agent",
+      "link": "https://mastra.ai/guides/guide/stock-agent",
+      "pageTitle": "Building an AI Stock Agent | Mastra Agents | Guides",
+      "pageDescription": "Guide on creating a simple stock agent in Mastra to fetch the last day's closing stock price for a given symbol."
+    },
+    {
+      "navTitle": "Workflows: AI Recruiter",
+      "link": "https://mastra.ai/guides/guide/ai-recruiter",
+      "pageTitle": "Building an AI Recruiter | Mastra Workflows | Guides",
+      "pageDescription": "Guide on building a recruiter workflow in Mastra to gather and process candidate information using LLMs."
+    },
+    {
+      "navTitle": "RAG: Research Assistant",
+      "link": "https://mastra.ai/guides/guide/research-assistant",
+      "pageTitle": "Building a Research Paper Assistant | Mastra RAG Guides",
+      "pageDescription": "Guide on creating an AI research assistant that can analyze and answer questions about academic papers using RAG."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/reference",
+      "pageTitle": "API Reference",
+      "pageDescription": "Mastra API Reference"
+    },
+    {
+      "navTitle": "Mastra Class",
+      "link": "https://mastra.ai/reference/core/mastra-class",
+      "pageTitle": "Mastra Core",
+      "pageDescription": "Documentation for the Mastra Class, the core entry point for managing agents, workflows, MCP servers, and server endpoints."
+    },
+    {
+      "navTitle": "create-mastra",
+      "link": "https://mastra.ai/reference/cli/create-mastra",
+      "pageTitle": "create-mastra | Create Project | Mastra CLI",
+      "pageDescription": "Documentation for the create-mastra command, which creates a new Mastra project with interactive setup options."
+    },
+    {
+      "navTitle": "mastra init",
+      "link": "https://mastra.ai/reference/cli/init",
+      "pageTitle": "mastra init | Initialize Project | Mastra CLI",
+      "pageDescription": "Documentation for the mastra init command, which creates a new Mastra project with interactive setup options."
+    },
+    {
+      "navTitle": "mastra dev",
+      "link": "https://mastra.ai/reference/cli/dev",
+      "pageTitle": "mastra dev | Development Server | Mastra CLI",
+      "pageDescription": "Documentation for the mastra dev command, which starts a development server for agents, tools, and workflows."
+    },
+    {
+      "navTitle": "mastra build",
+      "link": "https://mastra.ai/reference/cli/build",
+      "pageTitle": "mastra build | Production Bundle | Mastra CLI",
+      "pageDescription": "Build your Mastra project for production deployment"
+    },
+    {
+      "navTitle": "mastra start",
+      "link": "https://mastra.ai/reference/cli/start",
+      "pageTitle": "mastra start",
+      "pageDescription": "Start your built Mastra application"
+    },
+    {
+      "navTitle": "mastra lint",
+      "link": "https://mastra.ai/reference/cli/lint",
+      "pageTitle": "mastra lint | Validate Project | Mastra CLI",
+      "pageDescription": "Lint your Mastra project"
+    },
+    {
+      "navTitle": "mcp-docs-server",
+      "link": "https://mastra.ai/reference/cli/mcp-docs-server",
+      "pageTitle": "@mastra/mcp-docs-server",
+      "pageDescription": "Serve Mastra docs, examples and blog posts over MCP"
+    },
+    {
+      "navTitle": "Agent",
+      "link": "https://mastra.ai/reference/agents/agent",
+      "pageTitle": "Reference: Agent | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the Agent class in Mastra, which provides the foundation for creating AI agents with various capabilities."
+    },
+    {
+      "navTitle": "getAgent()",
+      "link": "https://mastra.ai/reference/agents/getAgent",
+      "pageTitle": "Reference: getAgent() | Agent Config | Agents | Mastra Docs",
+      "pageDescription": "API Reference for getAgent."
+    },
+    {
+      "navTitle": "createTool()",
+      "link": "https://mastra.ai/reference/agents/createTool",
+      "pageTitle": "Reference: createTool() | Tools | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the createTool function in Mastra, which creates custom tools for agents and workflows."
+    },
+    {
+      "navTitle": "generate()",
+      "link": "https://mastra.ai/reference/agents/generate",
+      "pageTitle": "Reference: Agent.generate() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.generate()` method in Mastra agents, which produces text or structured responses."
+    },
+    {
+      "navTitle": "stream()",
+      "link": "https://mastra.ai/reference/agents/stream",
+      "pageTitle": "Reference: Agent.stream() | Streaming | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.stream()` method in Mastra agents, which enables real-time streaming of responses."
+    },
+    {
+      "navTitle": "getWorkflows()",
+      "link": "https://mastra.ai/reference/agents/getWorkflows",
+      "pageTitle": "Reference: Agent.getWorkflows() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getWorkflows()` method in Mastra agents, which retrieves the workflows that the agent can execute."
+    },
+    {
+      "navTitle": "getVoice()",
+      "link": "https://mastra.ai/reference/agents/getVoice",
+      "pageTitle": "Reference: Agent.getVoice() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getVoice()` method in Mastra agents, which retrieves the voice provider for speech capabilities."
+    },
+    {
+      "navTitle": "getInstructions()",
+      "link": "https://mastra.ai/reference/agents/getInstructions",
+      "pageTitle": "Reference: Agent.getInstructions() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getInstructions()` method in Mastra agents, which retrieves the instructions that guide the agent's behavior."
+    },
+    {
+      "navTitle": "getTools()",
+      "link": "https://mastra.ai/reference/agents/getTools",
+      "pageTitle": "Reference: Agent.getTools() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getTools()` method in Mastra agents, which retrieves the tools that the agent can use."
+    },
+    {
+      "navTitle": "getModel()",
+      "link": "https://mastra.ai/reference/agents/getModel",
+      "pageTitle": "Reference: Agent.getModel() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getModel()` method in Mastra agents, which retrieves the language model that powers the agent."
+    },
+    {
+      "navTitle": "getMemory()",
+      "link": "https://mastra.ai/reference/agents/getMemory",
+      "pageTitle": "Reference: Agent.getMemory() | Agents | Mastra Docs",
+      "pageDescription": "Documentation for the `.getMemory()` method in Mastra agents, which retrieves the memory system associated with the agent."
+    },
+    {
+      "navTitle": "createTool()",
+      "link": "https://mastra.ai/reference/tools/create-tool",
+      "pageTitle": "Reference: createTool() | Tools | Mastra Docs",
+      "pageDescription": "Documentation for the createTool function in Mastra, used to define custom tools for agents."
+    },
+    {
+      "navTitle": "MCPClient",
+      "link": "https://mastra.ai/reference/tools/mcp-client",
+      "pageTitle": "Reference: MCPClient | Tool Management | Mastra Docs",
+      "pageDescription": "API Reference for MCPClient - A class for managing multiple Model Context Protocol servers and their tools."
+    },
+    {
+      "navTitle": "MCPServer",
+      "link": "https://mastra.ai/reference/tools/mcp-server",
+      "pageTitle": "Reference: MCPServer | Exposing Mastra Tools via MCP | Mastra Docs",
+      "pageDescription": "API Reference for MCPServer - A class for exposing Mastra tools and capabilities as a Model Context Protocol server."
+    },
+    {
+      "navTitle": "createDocumentChunkerTool()",
+      "link": "https://mastra.ai/reference/tools/document-chunker-tool",
+      "pageTitle": "Reference: createDocumentChunkerTool() | Tools | Mastra Docs",
+      "pageDescription": "Documentation for the Document Chunker Tool in Mastra, which splits documents into smaller chunks for efficient processing and retrieval."
+    },
+    {
+      "navTitle": "createGraphRAGTool()",
+      "link": "https://mastra.ai/reference/tools/graph-rag-tool",
+      "pageTitle": "Reference: createGraphRAGTool() | RAG | Mastra Tools Docs",
+      "pageDescription": "Documentation for the Graph RAG Tool in Mastra, which enhances RAG by building a graph of semantic relationships between documents."
+    },
+    {
+      "navTitle": "createVectorQueryTool()",
+      "link": "https://mastra.ai/reference/tools/vector-query-tool",
+      "pageTitle": "Reference: createVectorQueryTool() | RAG | Mastra Tools Docs",
+      "pageDescription": "Documentation for the Vector Query Tool in Mastra, which facilitates semantic search over vector stores with filtering and reranking capabilities."
+    },
+    {
+      "navTitle": "Workflow",
+      "link": "https://mastra.ai/reference/workflows/workflow",
+      "pageTitle": "Reference: Workflow Class | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the Workflow class in Mastra, which enables you to create state machines for complex sequences of operations with conditional branching and data validation."
+    },
+    {
+      "navTitle": "createStep()",
+      "link": "https://mastra.ai/reference/workflows/step",
+      "pageTitle": "Reference: Step | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the Step class, which defines individual units of work within a workflow."
+    },
+    {
+      "navTitle": "then()",
+      "link": "https://mastra.ai/reference/workflows/then",
+      "pageTitle": "Reference: Workflow.then() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.then()` method in workflows, which creates sequential dependencies between steps."
+    },
+    {
+      "navTitle": "parallel()",
+      "link": "https://mastra.ai/reference/workflows/parallel",
+      "pageTitle": "Reference: Workflow.parallel() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.parallel()` method in workflows, which executes multiple steps in parallel."
+    },
+    {
+      "navTitle": "branch()",
+      "link": "https://mastra.ai/reference/workflows/branch",
+      "pageTitle": "Reference: Workflow.branch() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.branch()` method in workflows, which creates conditional branches between steps."
+    },
+    {
+      "navTitle": "dowhile()",
+      "link": "https://mastra.ai/reference/workflows/dowhile",
+      "pageTitle": "Reference: Workflow.dowhile() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.dowhile()` method in workflows, which creates a loop that executes a step while a condition is met."
+    },
+    {
+      "navTitle": "dountil()",
+      "link": "https://mastra.ai/reference/workflows/dountil",
+      "pageTitle": "Reference: Workflow.dountil() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.dountil()` method in workflows, which creates a loop that executes a step until a condition is met."
+    },
+    {
+      "navTitle": "foreach()",
+      "link": "https://mastra.ai/reference/workflows/foreach",
+      "pageTitle": "Reference: Workflow.foreach() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.foreach()` method in workflows, which creates a loop that executes a step for each item in an array."
+    },
+    {
+      "navTitle": "map()",
+      "link": "https://mastra.ai/reference/workflows/map",
+      "pageTitle": "Reference: Workflow.map() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.map()` method in workflows, which maps output data from a previous step to the input of a subsequent step."
+    },
+    {
+      "navTitle": "commit()",
+      "link": "https://mastra.ai/reference/workflows/commit",
+      "pageTitle": "Reference: Workflow.commit() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.commit()` method in workflows, which finalizes the workflow and returns the final result."
+    },
+    {
+      "navTitle": "createRun()",
+      "link": "https://mastra.ai/reference/workflows/create-run",
+      "pageTitle": "Reference: Workflow.createRun() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.createRun()` method in workflows, which creates a new workflow run instance."
+    },
+    {
+      "navTitle": "Snapshots",
+      "link": "https://mastra.ai/reference/workflows/snapshots",
+      "pageTitle": "Reference: Snapshots | Workflow State Persistence | Mastra Docs",
+      "pageDescription": "Technical reference on snapshots in Mastra - the serialized workflow state that enables suspend and resume functionality"
+    },
+    {
+      "navTitle": "watch()",
+      "link": "https://mastra.ai/reference/workflows/watch",
+      "pageTitle": "Reference: Workflow.watch() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.watch()` method in workflows, which allows you to monitor the execution of a workflow run."
+    },
+    {
+      "navTitle": "stream()",
+      "link": "https://mastra.ai/reference/workflows/stream",
+      "pageTitle": "Reference: Workflow.stream() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.stream()` method in workflows, which allows you to monitor the execution of a workflow run as a stream."
+    },
+    {
+      "navTitle": "execute()",
+      "link": "https://mastra.ai/reference/workflows/execute",
+      "pageTitle": "Reference: Workflow.execute() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.execute()` method in workflows, which executes a step with input data and returns the output."
+    },
+    {
+      "navTitle": "resume()",
+      "link": "https://mastra.ai/reference/workflows/resume",
+      "pageTitle": "Reference: Workflow.resume() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.resume()` method in workflows, which resumes a suspended workflow run with new data."
+    },
+    {
+      "navTitle": "start()",
+      "link": "https://mastra.ai/reference/workflows/start",
+      "pageTitle": "Reference: Workflow.start() | Building Workflows | Mastra Docs",
+      "pageDescription": "Documentation for the `.start()` method in workflows, which starts a workflow run with input data."
+    },
+    {
+      "navTitle": "Workflow",
+      "link": "https://mastra.ai/reference/legacyWorkflows/workflow",
+      "pageTitle": "Reference: Workflow Class | Building Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the Workflow class in Mastra, which enables you to create state machines for complex sequences of operations with conditional branching and data validation."
+    },
+    {
+      "navTitle": "Step",
+      "link": "https://mastra.ai/reference/legacyWorkflows/step-class",
+      "pageTitle": "Reference: Step | Building Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the Step class, which defines individual units of work within a workflow."
+    },
+    {
+      "navTitle": "StepOptions",
+      "link": "https://mastra.ai/reference/legacyWorkflows/step-options",
+      "pageTitle": "Reference: StepOptions | Building Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the step options in workflows, which control variable mapping, execution conditions, and other runtime behavior."
+    },
+    {
+      "navTitle": "StepCondition",
+      "link": "https://mastra.ai/reference/legacyWorkflows/step-condition",
+      "pageTitle": "Reference: StepCondition | Building Workflows (Legacy) | Mastra",
+      "pageDescription": "Documentation for the step condition class in workflows, which determines whether a step should execute based on the output of previous steps or trigger data."
+    },
+    {
+      "navTitle": ".step()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/step-function",
+      "pageTitle": "Reference: Workflow.step() | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.step()` method in workflows, which adds a new step to the workflow."
+    },
+    {
+      "navTitle": ".after()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/after",
+      "pageTitle": "Reference: .after() | Building Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `after()` method in workflows (legacy), enabling branching and merging paths."
+    },
+    {
+      "navTitle": ".then()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/then",
+      "pageTitle": "Reference: Workflow.then() | Building Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.then()` method in workflows, which creates sequential dependencies between steps."
+    },
+    {
+      "navTitle": ".until()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/until",
+      "pageTitle": "Reference: Workflow.until() | Looping in Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.until()` method in Mastra workflows, which repeats a step until a specified condition becomes true."
+    },
+    {
+      "navTitle": ".while()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/while",
+      "pageTitle": "Reference: Workflow.while() | Looping in Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.while()` method in Mastra workflows, which repeats a step as long as a specified condition remains true."
+    },
+    {
+      "navTitle": ".if()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/if",
+      "pageTitle": "Reference: Workflow.if() | Conditional Branching | Mastra Docs",
+      "pageDescription": "Documentation for the `.if()` method in Mastra workflows, which creates conditional branches based on specified conditions."
+    },
+    {
+      "navTitle": ".else()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/else",
+      "pageTitle": "Reference: Workflow.else() | Conditional Branching | Mastra Docs",
+      "pageDescription": "Documentation for the `.else()` method in Mastra workflows, which creates an alternative branch when an if condition is false."
+    },
+    {
+      "navTitle": ".createRun()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/createRun",
+      "pageTitle": "Reference: Workflow.createRun() | Running Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.createRun()` method in workflows (legacy), which initializes a new workflow run instance."
+    },
+    {
+      "navTitle": ".start()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/start",
+      "pageTitle": "Reference: start() | Running Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `start()` method in workflows, which begins execution of a workflow run."
+    },
+    {
+      "navTitle": ".execute()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/execute",
+      "pageTitle": "Reference: Workflow.execute() | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.execute()` method in Mastra workflows, which runs workflow steps and returns results."
+    },
+    {
+      "navTitle": ".suspend()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/suspend",
+      "pageTitle": "Reference: suspend() | Control Flow | Mastra Docs",
+      "pageDescription": "Documentation for the suspend function in Mastra workflows, which pauses execution until resumed."
+    },
+    {
+      "navTitle": "Snapshots",
+      "link": "https://mastra.ai/reference/legacyWorkflows/snapshots",
+      "pageTitle": "Reference: Snapshots | Workflow State Persistence (Legacy) | Mastra Docs",
+      "pageDescription": "Technical reference on snapshots in Mastra - the serialized workflow state that enables suspend and resume functionality"
+    },
+    {
+      "navTitle": ".resume()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/resume",
+      "pageTitle": "Reference: run.resume() | Running Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.resume()` method in workflows, which continues execution of a suspended workflow step."
+    },
+    {
+      "navTitle": ".commit()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/commit",
+      "pageTitle": "Reference: Workflow.commit() | Running Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.commit()` method in workflows, which re-initializes the workflow machine with the current step configuration."
+    },
+    {
+      "navTitle": ".watch()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/watch",
+      "pageTitle": "Reference: run.watch() | Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Documentation for the `.watch()` method in workflows, which monitors the status of a workflow run."
+    },
+    {
+      "navTitle": "Event-Driven Workflows",
+      "link": "https://mastra.ai/reference/legacyWorkflows/events",
+      "pageTitle": "Event-Driven Workflows (Legacy) | Mastra Docs",
+      "pageDescription": "Learn how to create event-driven workflows using afterEvent and resumeWithEvent methods in Mastra."
+    },
+    {
+      "navTitle": ".afterEvent()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/afterEvent",
+      "pageTitle": ".afterEvent() Method | Mastra Docs",
+      "pageDescription": "Reference for the afterEvent method in Mastra workflows that creates event-based suspension points."
+    },
+    {
+      "navTitle": ".resumeWithEvent()",
+      "link": "https://mastra.ai/reference/legacyWorkflows/resumeWithEvent",
+      "pageTitle": ".resumeWithEvent() Method | Mastra Docs",
+      "pageDescription": "Reference for the resumeWithEvent method that resumes suspended workflows using event data."
+    },
+    {
+      "navTitle": "Step Retries",
+      "link": "https://mastra.ai/reference/legacyWorkflows/step-retries",
+      "pageTitle": "Step Retries | Error Handling | Mastra Docs",
+      "pageDescription": "Automatically retry failed steps in Mastra workflows with configurable retry policies."
+    },
+    {
+      "navTitle": "AgentNetwork (Experimental)",
+      "link": "https://mastra.ai/reference/networks/agent-network",
+      "pageTitle": "AgentNetwork (Experimental)",
+      "pageDescription": "Reference documentation for the AgentNetwork class"
+    },
+    {
+      "navTitle": "Memory Class",
+      "link": "https://mastra.ai/reference/memory/Memory",
+      "pageTitle": "Memory Class Reference",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": ".createThread()",
+      "link": "https://mastra.ai/reference/memory/createThread",
+      "pageTitle": "createThread",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": ".query()",
+      "link": "https://mastra.ai/reference/memory/query",
+      "pageTitle": "query",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": ".getThreadById()",
+      "link": "https://mastra.ai/reference/memory/getThreadById",
+      "pageTitle": "getThreadById Reference",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": ".getThreadsByResourceId()",
+      "link": "https://mastra.ai/reference/memory/getThreadsByResourceId",
+      "pageTitle": "getThreadsByResourceId Reference",
+      "pageDescription": ""
+    },
+    {
+      "navTitle": "LibSQL Storage",
+      "link": "https://mastra.ai/reference/storage/libsql",
+      "pageTitle": "LibSQL Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the LibSQL storage implementation in Mastra."
+    },
+    {
+      "navTitle": "PostgreSQL Storage",
+      "link": "https://mastra.ai/reference/storage/postgresql",
+      "pageTitle": "PostgreSQL Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the PostgreSQL storage implementation in Mastra."
+    },
+    {
+      "navTitle": "Upstash Storage",
+      "link": "https://mastra.ai/reference/storage/upstash",
+      "pageTitle": "Upstash Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the Upstash storage implementation in Mastra."
+    },
+    {
+      "navTitle": "Cloudflare KV Storage",
+      "link": "https://mastra.ai/reference/storage/cloudflare",
+      "pageTitle": "Cloudflare Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the Cloudflare KV storage implementation in Mastra."
+    },
+    {
+      "navTitle": "Cloudflare D1 Storage",
+      "link": "https://mastra.ai/reference/storage/cloudflare-d1",
+      "pageTitle": "Cloudflare D1 Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the Cloudflare D1 SQL storage implementation in Mastra."
+    },
+    {
+      "navTitle": "DynamoDB Storage",
+      "link": "https://mastra.ai/reference/storage/dynamodb",
+      "pageTitle": "DynamoDB Storage | Storage System | Mastra Core",
+      "pageDescription": "Documentation for the DynamoDB storage implementation in Mastra, using a single-table design with ElectroDB."
+    },
+    {
+      "navTitle": "LanceDB Storage",
+      "link": "https://mastra.ai/reference/storage/lance",
+      "pageTitle": "LanceDB Storage",
+      "pageDescription": "Documentation for the LanceDB storage implementation in Mastra."
+    },
+    {
+      "navTitle": ".chunk()",
+      "link": "https://mastra.ai/reference/rag/chunk",
+      "pageTitle": "Reference: .chunk() | Document Processing | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the chunk function in Mastra, which splits documents into smaller segments using various strategies."
+    },
+    {
+      "navTitle": ".embed()",
+      "link": "https://mastra.ai/reference/rag/embeddings",
+      "pageTitle": "Reference: embed() | Document Embedding | RAG | Mastra Docs",
+      "pageDescription": "Documentation for embedding functionality in Mastra using the AI SDK."
+    },
+    {
+      "navTitle": "ExtractParams",
+      "link": "https://mastra.ai/reference/rag/extract-params",
+      "pageTitle": "Reference: ExtractParams | Document Processing | RAG | Mastra Docs",
+      "pageDescription": "Documentation for metadata extraction configuration in Mastra."
+    },
+    {
+      "navTitle": "rerank()",
+      "link": "https://mastra.ai/reference/rag/rerank",
+      "pageTitle": "Reference: Rerank | Document Retrieval | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the rerank function in Mastra, which provides advanced reranking capabilities for vector search results."
+    },
+    {
+      "navTitle": "MDocument",
+      "link": "https://mastra.ai/reference/rag/document",
+      "pageTitle": "Reference: MDocument | Document Processing | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the MDocument class in Mastra, which handles document processing and chunking."
+    },
+    {
+      "navTitle": "Metadata Filters",
+      "link": "https://mastra.ai/reference/rag/metadata-filters",
+      "pageTitle": "Reference: Metadata Filters | Metadata Filtering | RAG | Mastra Docs",
+      "pageDescription": "Documentation for metadata filtering capabilities in Mastra, which allow for precise querying of vector search results across different vector stores."
+    },
+    {
+      "navTitle": "DatabaseConfig",
+      "link": "https://mastra.ai/reference/rag/database-config",
+      "pageTitle": "Reference: DatabaseConfig | RAG | Mastra Docs",
+      "pageDescription": "API reference for database-specific configuration types used with vector query tools in Mastra RAG systems."
+    },
+    {
+      "navTitle": "GraphRAG",
+      "link": "https://mastra.ai/reference/rag/graph-rag",
+      "pageTitle": "Reference: GraphRAG | Graph-based RAG | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the GraphRAG class in Mastra, which implements a graph-based approach to retrieval augmented generation."
+    },
+    {
+      "navTitle": "AstraVector",
+      "link": "https://mastra.ai/reference/rag/astra",
+      "pageTitle": "Reference: Astra Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the AstraVector class in Mastra, which provides vector search using DataStax Astra DB."
+    },
+    {
+      "navTitle": "ChromaVector",
+      "link": "https://mastra.ai/reference/rag/chroma",
+      "pageTitle": "Reference: Chroma Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the ChromaVector class in Mastra, which provides vector search using ChromaDB."
+    },
+    {
+      "navTitle": "CloudflareVector",
+      "link": "https://mastra.ai/reference/rag/vectorize",
+      "pageTitle": "Reference: Cloudflare Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the CloudflareVector class in Mastra, which provides vector search using Cloudflare Vectorize."
+    },
+    {
+      "navTitle": "PgVector",
+      "link": "https://mastra.ai/reference/rag/pg",
+      "pageTitle": "Reference: PG Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the PgVector class in Mastra, which provides vector search using PostgreSQL with pgvector extension."
+    },
+    {
+      "navTitle": "LibSQLVector",
+      "link": "https://mastra.ai/reference/rag/libsql",
+      "pageTitle": "Default Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the LibSQLVector class in Mastra, which provides vector search using LibSQL with vector extensions."
+    },
+    {
+      "navTitle": "MongoDBVector",
+      "link": "https://mastra.ai/reference/rag/mongodb",
+      "pageTitle": "Reference: MongoDB Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the MongoDBVector class in Mastra, which provides vector search using MongoDB Atlas and Atlas Vector Search."
+    },
+    {
+      "navTitle": "CouchbaseVector",
+      "link": "https://mastra.ai/reference/rag/couchbase",
+      "pageTitle": "Reference: Couchbase Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the CouchbaseVector class in Mastra, which provides vector search using Couchbase Vector Search."
+    },
+    {
+      "navTitle": "OpenSearchVector",
+      "link": "https://mastra.ai/reference/rag/opensearch",
+      "pageTitle": "Reference: OpenSearch Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the OpenSearchVector class in Mastra, which provides vector search using OpenSearch."
+    },
+    {
+      "navTitle": "PineconeVector",
+      "link": "https://mastra.ai/reference/rag/pinecone",
+      "pageTitle": "Reference: Pinecone Vector Store | Vector DBs | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the PineconeVector class in Mastra, which provides an interface to Pinecone's vector database."
+    },
+    {
+      "navTitle": "QdrantVector",
+      "link": "https://mastra.ai/reference/rag/qdrant",
+      "pageTitle": "Reference: Qdrant Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for integrating Qdrant with Mastra, a vector similarity search engine for managing vectors and payloads."
+    },
+    {
+      "navTitle": "TurboPuffer",
+      "link": "https://mastra.ai/reference/rag/turbopuffer",
+      "pageTitle": "Reference: Turbopuffer Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for integrating Turbopuffer with Mastra, a high-performance vector database for efficient similarity search."
+    },
+    {
+      "navTitle": "UpstashVector",
+      "link": "https://mastra.ai/reference/rag/upstash",
+      "pageTitle": "Reference: Upstash Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the UpstashVector class in Mastra, which provides vector search using Upstash Vector."
+    },
+    {
+      "navTitle": "Reference: Lance Vector Store | Vector Databases | RAG | Mastra Docs",
+      "link": "https://mastra.ai/reference/rag/lance",
+      "pageTitle": "Reference: Lance Vector Store | Vector Databases | RAG | Mastra Docs",
+      "pageDescription": "Documentation for the LanceVectorStore class in Mastra, which provides vector search using LanceDB, an embedded vector database based on the Lance columnar format."
+    },
+    {
+      "navTitle": "AnswerRelevancy",
+      "link": "https://mastra.ai/reference/evals/answer-relevancy",
+      "pageTitle": "Reference: Answer Relevancy | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Answer Relevancy Metric in Mastra, which evaluates how well LLM outputs address the input query."
+    },
+    {
+      "navTitle": "Bias",
+      "link": "https://mastra.ai/reference/evals/bias",
+      "pageTitle": "Reference: Bias | Output Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Bias Metric in Mastra, which evaluates LLM outputs for various forms of bias, including gender, political, racial/ethnic, or geographical bias."
+    },
+    {
+      "navTitle": "Completeness",
+      "link": "https://mastra.ai/reference/evals/completeness",
+      "pageTitle": "Reference: Completeness | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Completeness Metric in Mastra, which evaluates how thoroughly LLM outputs cover key elements present in the input."
+    },
+    {
+      "navTitle": "ContentSimilarity",
+      "link": "https://mastra.ai/reference/evals/content-similarity",
+      "pageTitle": "Reference: Content Similarity | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Content Similarity Metric in Mastra, which measures textual similarity between strings and provides a matching score."
+    },
+    {
+      "navTitle": "ContextPosition",
+      "link": "https://mastra.ai/reference/evals/context-position",
+      "pageTitle": "Reference: Context Position | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Context Position Metric in Mastra, which evaluates the ordering of context nodes based on their relevance to the query and output."
+    },
+    {
+      "navTitle": "ContextPrecision",
+      "link": "https://mastra.ai/reference/evals/context-precision",
+      "pageTitle": "Reference: Context Precision | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Context Precision Metric in Mastra, which evaluates the relevance and precision of retrieved context nodes for generating expected outputs."
+    },
+    {
+      "navTitle": "ContextRelevancy",
+      "link": "https://mastra.ai/reference/evals/context-relevancy",
+      "pageTitle": "Reference: Context Relevancy | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Context Relevancy Metric, which evaluates the relevance of retrieved context in RAG pipelines."
+    },
+    {
+      "navTitle": "ContextualRecall",
+      "link": "https://mastra.ai/reference/evals/contextual-recall",
+      "pageTitle": "Reference: Contextual Recall | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Contextual Recall Metric, which evaluates the completeness of LLM responses in incorporating relevant context."
+    },
+    {
+      "navTitle": "Faithfulness",
+      "link": "https://mastra.ai/reference/evals/faithfulness",
+      "pageTitle": "Reference: Faithfulness | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Faithfulness Metric in Mastra, which evaluates the factual accuracy of LLM outputs compared to the provided context."
+    },
+    {
+      "navTitle": "Hallucination",
+      "link": "https://mastra.ai/reference/evals/hallucination",
+      "pageTitle": "Reference: Hallucination | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Hallucination Metric in Mastra, which evaluates the factual correctness of LLM outputs by identifying contradictions with provided context."
+    },
+    {
+      "navTitle": "KeywordCoverage",
+      "link": "https://mastra.ai/reference/evals/keyword-coverage",
+      "pageTitle": "Reference: Keyword Coverage | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Keyword Coverage Metric in Mastra, which evaluates how well LLM outputs cover important keywords from the input."
+    },
+    {
+      "navTitle": "PromptAlignment",
+      "link": "https://mastra.ai/reference/evals/prompt-alignment",
+      "pageTitle": "Reference: Prompt Alignment | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Prompt Alignment Metric in Mastra, which evaluates how well LLM outputs adhere to given prompt instructions."
+    },
+    {
+      "navTitle": "Summarization",
+      "link": "https://mastra.ai/reference/evals/summarization",
+      "pageTitle": "Reference: Summarization | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Summarization Metric in Mastra, which evaluates the quality of LLM-generated summaries for content and factual accuracy."
+    },
+    {
+      "navTitle": "TextualDifference",
+      "link": "https://mastra.ai/reference/evals/textual-difference",
+      "pageTitle": "Reference: Textual Difference | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Textual Difference Metric in Mastra, which measures textual differences between strings using sequence matching."
+    },
+    {
+      "navTitle": "ToneConsistency",
+      "link": "https://mastra.ai/reference/evals/tone-consistency",
+      "pageTitle": "Reference: Tone Consistency | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Tone Consistency Metric in Mastra, which evaluates emotional tone and sentiment consistency in text."
+    },
+    {
+      "navTitle": "Toxicity",
+      "link": "https://mastra.ai/reference/evals/toxicity",
+      "pageTitle": "Reference: Toxicity | Metrics | Evals | Mastra Docs",
+      "pageDescription": "Documentation for the Toxicity Metric in Mastra, which evaluates LLM outputs for racist, biased, or toxic elements."
+    },
+    {
+      "navTitle": "Mastra Voice",
+      "link": "https://mastra.ai/reference/voice/mastra-voice",
+      "pageTitle": "Reference: MastraVoice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the MastraVoice abstract base class, which defines the core interface for all voice services in Mastra, including speech-to-speech capabilities."
+    },
+    {
+      "navTitle": "Composite Voice",
+      "link": "https://mastra.ai/reference/voice/composite-voice",
+      "pageTitle": "Reference: CompositeVoice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the CompositeVoice class, which enables combining multiple voice providers for flexible text-to-speech and speech-to-text operations."
+    },
+    {
+      "navTitle": ".speak()",
+      "link": "https://mastra.ai/reference/voice/voice.speak",
+      "pageTitle": "Reference: voice.speak() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the speak() method available in all Mastra voice providers, which converts text to speech."
+    },
+    {
+      "navTitle": ".listen()",
+      "link": "https://mastra.ai/reference/voice/voice.listen",
+      "pageTitle": "Reference: voice.listen() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the listen() method available in all Mastra voice providers, which converts speech to text."
+    },
+    {
+      "navTitle": ".getSpeakers()",
+      "link": "https://mastra.ai/reference/voice/voice.getSpeakers",
+      "pageTitle": "Reference: voice.getSpeakers() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the getSpeakers() method available in voice providers, which retrieves available voice options."
+    },
+    {
+      "navTitle": ".connect()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.connect",
+      "pageTitle": "Reference: voice.connect() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the connect() method available in real-time voice providers, which establishes a connection for speech-to-speech communication."
+    },
+    {
+      "navTitle": ".send()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.send",
+      "pageTitle": "Reference: voice.send() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the send() method available in real-time voice providers, which streams audio data for continuous processing."
+    },
+    {
+      "navTitle": ".answer()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.answer",
+      "pageTitle": "Reference: voice.answer() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the answer() method available in real-time voice providers, which triggers the voice provider to generate a response."
+    },
+    {
+      "navTitle": ".on()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.on",
+      "pageTitle": "Reference: voice.on() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the on() method available in voice providers, which registers event listeners for voice events."
+    },
+    {
+      "navTitle": "eventsrt.",
+      "link": "https://mastra.ai/reference/voice/voice.events",
+      "pageTitle": "Reference: Voice Events | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for events emitted by voice providers, particularly for real-time voice interactions."
+    },
+    {
+      "navTitle": ".off()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.off",
+      "pageTitle": "Reference: voice.off() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the off() method available in voice providers, which removes event listeners for voice events."
+    },
+    {
+      "navTitle": ".close()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.close",
+      "pageTitle": "Reference: voice.close() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the close() method available in voice providers, which disconnects from real-time voice services."
+    },
+    {
+      "navTitle": ".addInstructions()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.addInstructions",
+      "pageTitle": "Reference: voice.addInstructions() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the addInstructions() method available in voice providers, which adds instructions to guide the voice model's behavior."
+    },
+    {
+      "navTitle": ".addTools()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.addTools",
+      "pageTitle": "Reference: voice.addTools() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the addTools() method available in voice providers, which equips voice models with function calling capabilities."
+    },
+    {
+      "navTitle": ".updateConfig()rt.",
+      "link": "https://mastra.ai/reference/voice/voice.updateConfig",
+      "pageTitle": "Reference: voice.updateConfig() | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the updateConfig() method available in voice providers, which updates the configuration of a voice provider at runtime."
+    },
+    {
+      "navTitle": "Deepgram",
+      "link": "https://mastra.ai/reference/voice/deepgram",
+      "pageTitle": "Reference: Deepgram Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the Deepgram voice implementation, providing text-to-speech and speech-to-text capabilities with multiple voice models and languages."
+    },
+    {
+      "navTitle": "ElevenLabs",
+      "link": "https://mastra.ai/reference/voice/elevenlabs",
+      "pageTitle": "Reference: ElevenLabs Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the ElevenLabs voice implementation, offering high-quality text-to-speech capabilities with multiple voice models and natural-sounding synthesis."
+    },
+    {
+      "navTitle": "Google",
+      "link": "https://mastra.ai/reference/voice/google",
+      "pageTitle": "Reference: Google Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the Google Voice implementation, providing text-to-speech and speech-to-text capabilities."
+    },
+    {
+      "navTitle": "Murf",
+      "link": "https://mastra.ai/reference/voice/murf",
+      "pageTitle": "Reference: Murf Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the Murf voice implementation, providing text-to-speech capabilities."
+    },
+    {
+      "navTitle": "OpenAI",
+      "link": "https://mastra.ai/reference/voice/openai",
+      "pageTitle": "Reference: OpenAI Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the OpenAIVoice class, providing text-to-speech and speech-to-text capabilities."
+    },
+    {
+      "navTitle": "OpenAI Realtime",
+      "link": "https://mastra.ai/reference/voice/openai-realtime",
+      "pageTitle": "Reference: OpenAI Realtime Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the OpenAIRealtimeVoice class, providing real-time text-to-speech and speech-to-text capabilities via WebSockets."
+    },
+    {
+      "navTitle": "PlayAI",
+      "link": "https://mastra.ai/reference/voice/playai",
+      "pageTitle": "Reference: PlayAI Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the PlayAI voice implementation, providing text-to-speech capabilities."
+    },
+    {
+      "navTitle": "Sarvam",
+      "link": "https://mastra.ai/reference/voice/sarvam",
+      "pageTitle": "Reference: Sarvam Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the Sarvam class, providing text-to-speech and speech-to-text capabilities."
+    },
+    {
+      "navTitle": "Speechify",
+      "link": "https://mastra.ai/reference/voice/speechify",
+      "pageTitle": "Reference: Speechify Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the Speechify voice implementation, providing text-to-speech capabilities."
+    },
+    {
+      "navTitle": "Azure",
+      "link": "https://mastra.ai/reference/voice/azure",
+      "pageTitle": "Reference: Azure Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the AzureVoice class, providing text-to-speech and speech-to-text capabilities using Azure Cognitive Services."
+    },
+    {
+      "navTitle": "Cloudflare",
+      "link": "https://mastra.ai/reference/voice/cloudflare",
+      "pageTitle": "Reference: Cloudflare Voice | Voice Providers | Mastra Docs",
+      "pageDescription": "Documentation for the CloudflareVoice class, providing text-to-speech capabilities using Cloudflare Workers AI."
+    },
+    {
+      "navTitle": "Overview",
+      "link": "https://mastra.ai/reference/observability/providers",
+      "pageTitle": "Reference: Provider List | Observability | Mastra Docs",
+      "pageDescription": "Overview of observability providers supported by Mastra, including Dash0, SigNoz, Braintrust, Langfuse, and more."
+    },
+    {
+      "navTitle": "Dash0",
+      "link": "https://mastra.ai/reference/observability/providers/dash0",
+      "pageTitle": "Reference: Dash0 Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating Mastra with Dash0, an Open Telementry native observability solution."
+    },
+    {
+      "navTitle": "SigNoz",
+      "link": "https://mastra.ai/reference/observability/providers/signoz",
+      "pageTitle": "Reference: SigNoz Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating SigNoz with Mastra, an open-source APM and observability platform providing full-stack monitoring through OpenTelemetry."
+    },
+    {
+      "navTitle": "Braintrust",
+      "link": "https://mastra.ai/reference/observability/providers/braintrust",
+      "pageTitle": "Reference: Braintrust | Observability | Mastra Docs",
+      "pageDescription": "Documentation for integrating Braintrust with Mastra, an evaluation and monitoring platform for LLM applications."
+    },
+    {
+      "navTitle": "LangSmith",
+      "link": "https://mastra.ai/reference/observability/providers/langsmith",
+      "pageTitle": "Reference: LangSmith Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating LangSmith with Mastra, a platform for debugging, testing, evaluating, and monitoring LLM applications."
+    },
+    {
+      "navTitle": "Langfuse",
+      "link": "https://mastra.ai/reference/observability/providers/langfuse",
+      "pageTitle": "Reference: Langfuse Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating Langfuse with Mastra, an open-source observability platform for LLM applications."
+    },
+    {
+      "navTitle": "LangWatch",
+      "link": "https://mastra.ai/reference/observability/providers/langwatch",
+      "pageTitle": "Reference: LangWatch Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating LangWatch with Mastra, a specialized observability platform for LLM applications."
+    },
+    {
+      "navTitle": "New Relic",
+      "link": "https://mastra.ai/reference/observability/providers/new-relic",
+      "pageTitle": "Reference: New Relic Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating New Relic with Mastra, a comprehensive observability platform supporting OpenTelemetry for full-stack monitoring."
+    },
+    {
+      "navTitle": "Traceloop",
+      "link": "https://mastra.ai/reference/observability/providers/traceloop",
+      "pageTitle": "Reference: Traceloop Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating Traceloop with Mastra, an OpenTelemetry-native observability platform for LLM applications."
+    },
+    {
+      "navTitle": "Laminar",
+      "link": "https://mastra.ai/reference/observability/providers/laminar",
+      "pageTitle": "Reference: Laminar Integration | Mastra Observability Docs",
+      "pageDescription": "Documentation for integrating Laminar with Mastra, a specialized observability platform for LLM applications."
+    },
+    {
+      "navTitle": "Logger",
+      "link": "https://mastra.ai/reference/observability/logger",
+      "pageTitle": "Reference: Logger Instance | Mastra Observability Docs",
+      "pageDescription": "Documentation for Logger instances, which provide methods to record events at various severity levels."
+    },
+    {
+      "navTitle": "OTelConfig",
+      "link": "https://mastra.ai/reference/observability/otel-config",
+      "pageTitle": "Reference: OtelConfig | Mastra Observability Docs",
+      "pageDescription": "Documentation for the OtelConfig object, which configures OpenTelemetry instrumentation, tracing, and exporting behavior."
+    },
+    {
+      "navTitle": "Agents API",
+      "link": "https://mastra.ai/reference/client-js/agents",
+      "pageTitle": "Mastra Client Agents API",
+      "pageDescription": "Learn how to interact with Mastra AI agents, including generating responses, streaming interactions, and managing agent tools using the client-js SDK."
+    },
+    {
+      "navTitle": "Memory API",
+      "link": "https://mastra.ai/reference/client-js/memory",
+      "pageTitle": "Mastra Client Memory API",
+      "pageDescription": "Learn how to manage conversation threads and message history in Mastra using the client-js SDK."
+    },
+    {
+      "navTitle": "Tools API",
+      "link": "https://mastra.ai/reference/client-js/tools",
+      "pageTitle": "Mastra Client Tools API",
+      "pageDescription": "Learn how to interact with and execute tools available in the Mastra platform using the client-js SDK."
+    },
+    {
+      "navTitle": "Workflows API",
+      "link": "https://mastra.ai/reference/client-js/workflows",
+      "pageTitle": "Mastra Client Workflows API",
+      "pageDescription": "Learn how to interact with and execute automated workflows in Mastra using the client-js SDK."
+    },
+    {
+      "navTitle": "Workflows (Legacy) API",
+      "link": "https://mastra.ai/reference/client-js/workflows-legacy",
+      "pageTitle": "Mastra Client Workflows (Legacy) API",
+      "pageDescription": "Learn how to interact with and execute automated legacy workflows in Mastra using the client-js SDK."
+    },
+    {
+      "navTitle": "Vectors API",
+      "link": "https://mastra.ai/reference/client-js/vectors",
+      "pageTitle": "Mastra Client Vectors API",
+      "pageDescription": "Learn how to work with vector embeddings for semantic search and similarity matching in Mastra using the client-js SDK."
+    },
+    {
+      "navTitle": "Logs API",
+      "link": "https://mastra.ai/reference/client-js/logs",
+      "pageTitle": "Mastra Client Logs API",
+      "pageDescription": "Learn how to access and query system logs and debugging information in Mastra using the client-js SDK."
+    },
+    {
+      "navTitle": "Telemetry API",
+      "link": "https://mastra.ai/reference/client-js/telemetry",
+      "pageTitle": "Mastra Client Telemetry API",
+      "pageDescription": "Learn how to retrieve and analyze traces from your Mastra application for monitoring and debugging using the client-js SDK."
+    },
+    {
+      "navTitle": "Error Handling",
+      "link": "https://mastra.ai/reference/client-js/error-handling",
+      "pageTitle": "Mastra Client Error Handling",
+      "pageDescription": "Learn about the built-in retry mechanism and error handling capabilities in the Mastra client-js SDK."
+    },
+    {
+      "navTitle": "Deployer",
+      "link": "https://mastra.ai/reference/deployer/deployer",
+      "pageTitle": "Mastra Deployer",
+      "pageDescription": "Documentation for the Deployer abstract class, which handles packaging and deployment of Mastra applications."
+    },
+    {
+      "navTitle": "Cloudflare",
+      "link": "https://mastra.ai/reference/deployer/cloudflare",
+      "pageTitle": "Cloudflare Deployer",
+      "pageDescription": "Documentation for the CloudflareDeployer class, which deploys Mastra applications to Cloudflare Workers."
+    },
+    {
+      "navTitle": "Netlify",
+      "link": "https://mastra.ai/reference/deployer/netlify",
+      "pageTitle": "Netlify Deployer",
+      "pageDescription": "Documentation for the NetlifyDeployer class, which deploys Mastra applications to Netlify Functions."
+    },
+    {
+      "navTitle": "Vercel",
+      "link": "https://mastra.ai/reference/deployer/vercel",
+      "pageTitle": "Vercel Deployer",
+      "pageDescription": "Documentation for the VercelDeployer class, which deploys Mastra applications to Vercel."
+    }
+  ]
+}

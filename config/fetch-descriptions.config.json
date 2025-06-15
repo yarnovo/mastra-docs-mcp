@@ -1,0 +1,38 @@
+{
+  "name": "Mastra Descriptions Fetcher",
+  "input": {
+    "navigationFile": "mastra-nav.json"
+  },
+  "output": {
+    "descriptionsFile": "mastra-descriptions.json"
+  },
+  "crawler": {
+    "batchSize": 10,
+    "timeout": 15000,
+    "headless": true,
+    "slowMo": 30,
+    "delays": {
+      "thinking": {
+        "min": 300,
+        "max": 800
+      },
+      "reading": {
+        "min": 500,
+        "max": 1200
+      },
+      "tabOpening": {
+        "min": 200,
+        "max": 600
+      },
+      "batchInterval": {
+        "min": 2000,
+        "max": 5000
+      }
+    },
+    "retries": {
+      "maxAttempts": 2,
+      "backoffMs": 1000
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+} 
