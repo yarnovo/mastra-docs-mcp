@@ -42,7 +42,7 @@ ollama pull bge-m3
 
 ### Cursor Configuration
 
-Create or edit the `.cursor/mcp.json` configuration file in your project root directory:
+Create or edit the `.cursor/mcp.json` configuration file in the project root directory:
 
 ```json
 {
@@ -54,8 +54,6 @@ Create or edit the `.cursor/mcp.json` configuration file in your project root di
                 "mastra-docs-mcp"
             ],
             "env": {
-                "MAX_KEYWORD_RESULTS": "20",
-                "MAX_SEMANTIC_RESULTS": "20",
                 "OLLAMA_BASE_URL": "http://localhost:11434"
             }
         }
@@ -65,7 +63,7 @@ Create or edit the `.cursor/mcp.json` configuration file in your project root di
 
 ### VSCode Configuration
 
-Create or edit the `.vscode/mcp.json` configuration file in your project root directory:
+Create or edit the `.vscode/mcp.json` configuration file in the project root directory:
 
 ```json
 {
@@ -78,8 +76,6 @@ Create or edit the `.vscode/mcp.json` configuration file in your project root di
                 "mastra-docs-mcp"
             ],
             "env": {
-                "MAX_KEYWORD_RESULTS": "20",
-                "MAX_SEMANTIC_RESULTS": "20",
                 "OLLAMA_BASE_URL": "http://localhost:11434"
             }
         }
@@ -91,20 +87,11 @@ After configuration, restart your IDE to use the Mastra documentation search fun
 
 ### Environment Variables
 
-You can adjust the search behavior by setting environment variables. These variables can be configured in the `env` field of `.cursor/mcp.json` or `.vscode/mcp.json`.
+You can adjust search behavior by setting environment variables. These variables can be configured in the `env` field of `.cursor/mcp.json` or `.vscode/mcp.json`.
 
 | Environment Variable   | Meaning                                                                 | Default Value            |
 | ---------------------- | ----------------------------------------------------------------------- | ------------------------ |
-| `MAX_KEYWORD_RESULTS`  | The maximum number of results returned for keyword exact matching.      | `10`                     |
-| `MAX_SEMANTIC_RESULTS` | The maximum number of results returned for vector semantic search.      | `10`                     |
 | `OLLAMA_BASE_URL`      | The address of the Ollama service, used for generating vector embeddings. | `http://localhost:11434` |
-
-**Performance and Token Consumption:**
-
-The values of `MAX_KEYWORD_RESULTS` and `MAX_SEMANTIC_RESULTS` determine the number of results returned.
-- **Higher Values**: Return more relevant documents, providing richer context for the large language model, which can improve the accuracy of its responses.
-- **Token Consumption**: Each returned document link (link item) consumes about 50 tokens. If you set both `MAX_KEYWORD_RESULTS` and `MAX_SEMANTIC_RESULTS` to 100, the theoretical maximum token consumption would be close to `(100 + 100) * 50 = 10,000` tokens.
-- **Recommended Value**: Considering that exact match results are often fewer, the actual consumption is typically around 5,000 tokens. We recommend setting both values to `100` for optimal results. However, you can adjust these values based on your token usage costs and accuracy requirements.
 
 ## MCP Tool Functions
 
@@ -120,10 +107,8 @@ Query and return Mastra official documentation link lists, supporting **hybrid s
   - Array element structure:
     - `en` (required): English exact match keywords
     - `cn` (required): Chinese exact match keywords
-
-**Return Quantity Limits:** 
-- Keyword exact matching: Controlled by environment variable `MAX_KEYWORD_RESULTS`, default 10 results
-- Semantic search: Controlled by environment variable `MAX_SEMANTIC_RESULTS`, default 10 results
+- `maxKeywordResults` (optional): Maximum number of results returned for keyword exact matching, default 15
+- `maxSemanticResults` (optional): Maximum number of results returned for vector semantic search, default 15
 
 **Return Data Format:**
 ```json
@@ -141,8 +126,8 @@ Query and return Mastra official documentation link lists, supporting **hybrid s
   ],
   "combinedSearchTerm": "agent 智能体",
   "searchMethod": "hybrid_search",
-  "maxKeywordResults": 10,
-  "maxSemanticResults": 10,
+  "maxKeywordResults": 15,
+  "maxSemanticResults": 15,
   "keywordResultCount": 3,
   "semanticResultCount": 2,
   "vectorSearchAvailable": true,
@@ -175,16 +160,20 @@ Query and return Mastra official documentation link lists, supporting **hybrid s
 - `error`: Search execution failed
 
 **Usage Examples:**
-- Hybrid animation search: `search_docs_list(search={en:"animation", cn:"角色动画"}, keyword=[{en:"blueprint", cn:"蓝图"}])`
-- Search blueprint materials: `search_docs_list(search={en:"blueprint", cn:"蓝图编程"}, keyword=[{en:"material", cn:"材质"}])`
-- Find installation guides: `search_docs_list(search={en:"installation", cn:"安装虚幻引擎"}, keyword=[{en:"guide", cn:"指南"}])`
-- Physics collision search: `search_docs_list(search={en:"physics", cn:"物理仿真"}, keyword=[{en:"collision", cn:"碰撞"}])`
-- Lighting shadow features: `search_docs_list(search={en:"lighting", cn:"光照设置"}, keyword=[{en:"shadow", cn:"阴影"}])`
-- Multi-keyword priority search: `search_docs_list(search={en:"game development", cn:"游戏开发"}, keyword=[{en:"blueprint", cn:"蓝图"}, {en:"material", cn:"材质"}, {en:"animation", cn:"动画"}])` (blueprint results prioritized, then material, finally animation)
+- Agent workflow search: `search_docs_list(search={en:"agent", cn:"智能体"}, keyword=[{en:"workflow", cn:"工作流"}])`
+- Tool and protocol search: `search_docs_list(search={en:"tool", cn:"工具"}, keyword=[{en:"mcp", cn:"协议"}])`
+- Find installation guides: `search_docs_list(search={en:"installation", cn:"安装Mastra"}, keyword=[{en:"guide", cn:"指南"}])`
+- RAG vector search: `search_docs_list(search={en:"rag", cn:"检索增强"}, keyword=[{en:"vector", cn:"向量"}])`
+- Memory thread functionality: `search_docs_list(search={en:"memory", cn:"记忆管理"}, keyword=[{en:"thread", cn:"线程"}])`
+- Multi-keyword priority search: `search_docs_list(search={en:"ai development", cn:"AI开发"}, keyword=[{en:"agent", cn:"智能体"}, {en:"workflow", cn:"工作流"}, {en:"tool", cn:"工具"}])` (agent results prioritized, then workflow, finally tool)
+- Custom result count: `search_docs_list(search={en:"agent", cn:"智能体"}, keyword=[{en:"workflow", cn:"工作流"}], maxKeywordResults=20, maxSemanticResults=10)`
 
-**Note:** The maximum number of search results is controlled separately by environment variables:
-- Keyword exact matching is controlled by `MAX_KEYWORD_RESULTS`, default 10 results
-- Semantic search is controlled by `MAX_SEMANTIC_RESULTS`, default 10 results
+**Performance and Token Consumption:**
+
+The values of `maxKeywordResults` and `maxSemanticResults` determine the number of results returned.
+- **Higher Values**: Return more relevant documents, providing richer context for the large language model, which can improve the accuracy of its responses.
+- **Token Consumption**: Each returned document link (link item) consumes about 50 tokens. If you set both `maxKeywordResults` and `maxSemanticResults` to 100, the theoretical maximum token consumption would be close to `(100 + 100) * 50 = 10,000` tokens.
+- **Recommended Value**: Considering that exact match results are often fewer, the actual consumption is typically around 1,500 tokens (default value 15). You can adjust these values based on your token usage costs and accuracy requirements.
 
 ## Data Statistics
 
@@ -320,12 +309,6 @@ const expandButtons = await page.$$('.btn-expander .icon-arrow-forward-ios:not(.
 ## Environment Variables
 
 ```bash
-# Maximum number of keyword exact matching results
-MAX_KEYWORD_RESULTS=10
-
-# Maximum number of semantic search results
-MAX_SEMANTIC_RESULTS=10
-
 # Ollama service address
 OLLAMA_BASE_URL=http://localhost:11434
 ```
