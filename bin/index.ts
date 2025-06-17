@@ -78,25 +78,6 @@ const server = new McpServer({
 // 初始化向量搜索引擎
 const vectorSearch = getVectorSearchEngine();
 
-console.log(
-  "process.env.MAX_KEYWORD_RESULTS",
-  process.env.MAX_KEYWORD_RESULTS
-);
-console.log(
-  "process.env.MAX_SEMANTIC_RESULTS",
-  process.env.MAX_SEMANTIC_RESULTS
-);
-
-const maxKeywordResults = parseInt(
-  process.env.MAX_KEYWORD_RESULTS || "10"
-);
-const maxSemanticResults = parseInt(
-  process.env.MAX_SEMANTIC_RESULTS || "10"
-);
-
-console.log("maxKeywordResults", maxKeywordResults);
-console.log("maxSemanticResults", maxSemanticResults);
-
 // Get all Mastra documentation links with optional search
 server.tool(
   "search_docs_list",
@@ -120,6 +101,22 @@ server.tool(
       .describe(
         "精确匹配关键词数组，每个元素包含英文和中文关键词，将通过文本小写比对进行精确匹配，只要匹配上其中一个关键词即返回结果，前面的关键词匹配结果排在最前面，返回结果排序优先级高于语义搜索"
       ),
+    maxKeywordResults: z
+      .number()
+      .int()
+      .min(1)
+      .max(100)
+      .optional()
+      .default(15)
+      .describe("关键词精确匹配返回的最大结果数量，默认为15"),
+    maxSemanticResults: z
+      .number()
+      .int()
+      .min(1)
+      .max(100)
+      .optional()
+      .default(15)
+      .describe("向量语义搜索返回的最大结果数量，默认为15"),
   },
   {
     readOnlyHint: true,
@@ -127,6 +124,13 @@ server.tool(
   },
   async (args) => {
     try {
+      // 使用参数中的值，如果未提供则使用默认值15
+      const maxKeywordResults = args.maxKeywordResults ?? 15;
+      const maxSemanticResults = args.maxSemanticResults ?? 15;
+
+      console.log("maxKeywordResults", maxKeywordResults);
+      console.log("maxSemanticResults", maxSemanticResults);
+
       let keywordResults: EnhancedLink[] = [];
       let semanticResults: EnhancedLink[] = [];
       let searchMethod = "no_search"; // 默认无搜索
@@ -292,6 +296,10 @@ server.tool(
     } catch (error) {
       // 全局错误处理，确保返回一致的数据结构
       console.error("❌ 搜索工具执行失败:", error);
+
+      // 在catch块中重新获取参数值
+      const maxKeywordResults = args.maxKeywordResults ?? 15;
+      const maxSemanticResults = args.maxSemanticResults ?? 15;
 
       const errorResult = {
         total: enhancedDocLinks.length,

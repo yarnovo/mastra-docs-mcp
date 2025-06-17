@@ -54,8 +54,6 @@ ollama pull bge-m3
                 "mastra-docs-mcp"
             ],
             "env": {
-                "MAX_KEYWORD_RESULTS": "20",
-                "MAX_SEMANTIC_RESULTS": "20",
                 "OLLAMA_BASE_URL": "http://localhost:11434"
             }
         }
@@ -78,8 +76,6 @@ ollama pull bge-m3
                 "mastra-docs-mcp"
             ],
             "env": {
-                "MAX_KEYWORD_RESULTS": "20",
-                "MAX_SEMANTIC_RESULTS": "20",
                 "OLLAMA_BASE_URL": "http://localhost:11434"
             }
         }
@@ -95,16 +91,7 @@ ollama pull bge-m3
 
 | 环境变量               | 含义                                                                                                                                                                                            | 默认值                  |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| `MAX_KEYWORD_RESULTS`  | 关键词精确匹配返回的最大结果数量。                                                                                                                                                              | `10`                    |
-| `MAX_SEMANTIC_RESULTS` | 向量语义搜索返回的最大结果数量。                                                                                                                                                                | `10`                    |
 | `OLLAMA_BASE_URL`      | Ollama 服务的地址，用于生成向量嵌入。                                                                                                                                                           | `http://localhost:11434` |
-
-**性能与Token消耗说明:**
-
-`MAX_KEYWORD_RESULTS` 和 `MAX_SEMANTIC_RESULTS` 的值决定了返回结果的数量。
-- **更高的值**: 返回更多相关文档，可以为大语言模型提供更丰富的上下文，从而提高回答的准确性。
-- **Token 消耗**: 每个返回的文档链接（link item）大约消耗 50 个 Token。如果您将 `MAX_KEYWORD_RESULTS` 和 `MAX_SEMANTIC_RESULTS` 都设置为 100，理论上最大 Token 消耗将接近 `(100 + 100) * 50 = 10,000` 个 Token。
-- **推荐值**: 考虑到精确搜索的结果通常较少，实际消耗通常在 5000 个 Token 左右。我们推荐将这两个值都设置为 `100` 以获得最佳效果。但您可以根据自己的 Token 使用成本和对准确性的要求，自行调整这些值。
 
 ## MCP工具功能
 
@@ -120,10 +107,8 @@ ollama pull bge-m3
   - 数组中每个元素结构:
     - `en` (必需): 英文精确匹配关键词
     - `cn` (必需): 中文精确匹配关键词
-
-**返回数量限制:** 
-- 关键词精确匹配：通过环境变量 `MAX_KEYWORD_RESULTS` 控制，默认为10个结果
-- 语义搜索：通过环境变量 `MAX_SEMANTIC_RESULTS` 控制，默认为10个结果
+- `maxKeywordResults` (可选): 关键词精确匹配返回的最大结果数量，默认为15
+- `maxSemanticResults` (可选): 向量语义搜索返回的最大结果数量，默认为15
 
 **返回数据格式:**
 ```json
@@ -141,8 +126,8 @@ ollama pull bge-m3
   ],
   "combinedSearchTerm": "agent 智能体",
   "searchMethod": "hybrid_search",
-  "maxKeywordResults": 10,
-  "maxSemanticResults": 10,
+  "maxKeywordResults": 15,
+  "maxSemanticResults": 15,
   "keywordResultCount": 5,
   "semanticResultCount": 3,
   "vectorSearchAvailable": true,
@@ -181,10 +166,16 @@ ollama pull bge-m3
 - RAG向量搜索: `search_docs_list(search={en:"rag", cn:"检索增强"}, keyword=[{en:"vector", cn:"向量"}])`
 - 记忆线程功能: `search_docs_list(search={en:"memory", cn:"记忆管理"}, keyword=[{en:"thread", cn:"线程"}])`
 - 多关键词优先级搜索: `search_docs_list(search={en:"ai development", cn:"AI开发"}, keyword=[{en:"agent", cn:"智能体"}, {en:"workflow", cn:"工作流"}, {en:"tool", cn:"工具"}])` (agent匹配结果优先，其次workflow，最后tool)
+- 自定义结果数量: `search_docs_list(search={en:"agent", cn:"智能体"}, keyword=[{en:"workflow", cn:"工作流"}], maxKeywordResults=20, maxSemanticResults=10)`
 
-**注意:** 搜索结果的最大返回数量分别由环境变量控制：
-- 关键词精确匹配由 `MAX_KEYWORD_RESULTS` 控制，默认为10个结果
-- 语义搜索由 `MAX_SEMANTIC_RESULTS` 控制，默认为10个结果
+**性能与Token消耗说明:**
+
+`maxKeywordResults` 和 `maxSemanticResults` 的值决定了返回结果的数量。
+- **更高的值**: 返回更多相关文档，可以为大语言模型提供更丰富的上下文，从而提高回答的准确性。
+- **Token 消耗**: 每个返回的文档链接（link item）大约消耗 50 个 Token。如果您将 `maxKeywordResults` 和 `maxSemanticResults` 都设置为 100，理论上最大 Token 消耗将接近 `(100 + 100) * 50 = 10,000` 个 Token。
+- **推荐值**: 考虑到精确搜索的结果通常较少，实际消耗通常在 1500 个 Token 左右（默认值15）。您可以根据自己的 Token 使用成本和对准确性的要求，自行调整这些值。
+
+
 
 ## 数据统计
 
@@ -325,12 +316,6 @@ const expandButtons = await page.$$('.btn-expander .icon-arrow-forward-ios:not(.
 ## 环境变量
 
 ```bash
-# 关键词精确匹配最大返回数量
-MAX_KEYWORD_RESULTS=10
-
-# 语义搜索最大返回数量
-MAX_SEMANTIC_RESULTS=10
-
 # Ollama服务地址
 OLLAMA_BASE_URL=http://localhost:11434
 ```
